@@ -1,5 +1,7 @@
 header h1 {
-    color: #0076bb;
+	font-size: 3em;
+	color: #A901DB;
+	text-shadow: 2px 1px #BDBDBD;
 }
 
 nav ul{
@@ -14,7 +16,7 @@ nav ul li {
 nav ul li a {
     display: block;
     padding: .5rem 1rem;
-    background-color: #f89c1f;
+    background-color: #A9D0F5;
 }
 
 main h1 {
