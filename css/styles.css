@@ -11,7 +11,6 @@ nav ul{
 nav ul li {
     float: left;
     list-style-type: none;
-    color: #2E2EFE;
 }
 
 nav ul li a {
@@ -24,8 +23,12 @@ main h1 {
     clear: both;
 }
 
-main img{
+main img {
     float: right;
+}
+
+main li {
+    color: #2E2EFE;
 }
 
 footer {
