@@ -3,7 +3,8 @@ header h1 {
 }
 
 nav {
-    padding: 0;
+    padding: 0px;
+	display: inline-block;
 }
 
 nav ul li {
