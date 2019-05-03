@@ -63,6 +63,11 @@ main figcaption {
     text-align: center;
     font-size: .8rem;
 }
+div.news {
+    clear: both;
+    column-count: 2;
+    column-rule: 1px solid #ddd;
+}
 
 /*  Footer Rules  */ 
 footer {
