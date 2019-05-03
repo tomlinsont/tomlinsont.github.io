@@ -1,0 +1,7 @@
+/* for iphone and ms phones - keeps phone from enlarging fonts 
+between portrait and landscape modes */
+html { -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;}
+
+/* box model reset - add margin to outside, subtract padding from inside */
+*{ -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
