@@ -9,7 +9,7 @@ body {
 
 /*  Header Rules */
 header {
-    background-color: #17a8e4;
+    background-color: #deceb7;
     padding: 1rem 2%; /* 1 rem - 1 x base font (16px) */
 }
 header h1 {
@@ -21,7 +21,7 @@ header h2 {
 
 /*  Navigation Rules  */
 nav {
-    background-color: #111;
+    background-color: #54391c;
 }
 nav ul {
     margin: 0;
@@ -31,7 +31,7 @@ nav li {
     list-style-type: none;
 }
 nav li.active {
-    background-color: #333;
+    background-color: #634b30;
 }
 nav a {
     display: block;
