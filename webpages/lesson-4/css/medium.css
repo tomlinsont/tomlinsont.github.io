@@ -29,11 +29,11 @@
     }
 
     div.row section:nth-child(1) {
-        width: 50%;
+        /*width: 50%;*/
         float: left;
     }
     div.row section:nth-child(2) {
-        width: 50%;
+       /* width: 50%;*/
         float: left;
     }
 
