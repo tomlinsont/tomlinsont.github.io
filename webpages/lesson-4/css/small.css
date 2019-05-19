@@ -85,8 +85,6 @@ main figure.myphoto figcaption {
     font-size: .75rem;
 }
 
-
-/*----------- FOOTER --------------*/
 div.row {
     clear: both;
 }
@@ -94,6 +92,7 @@ div.row section {
     padding: 0 2%;
     background-color: #7894cc;
 }
+/*----------- FOOTER --------------*/
 footer {
     background-color: #000;
     color: #fff;
