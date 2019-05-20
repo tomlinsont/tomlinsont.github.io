@@ -94,13 +94,17 @@ footer {
     font-size: 1rem;
     clear: both;
 }
+footer strong {
+    color: #000;
+}
 div.row {
     clear: both;
     width: 100%;
 }
 div.row section {
-    padding: 0 2%;
+    padding: .5rem 2%;
     background-color: #7894cc;
+    text-align: left;
 }
 
 
