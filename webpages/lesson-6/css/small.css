@@ -41,7 +41,14 @@ header h2 {
 
 /*----------- NAVIGATION --------------*/
 nav {
-    background-color: #111;
+    background-color: #6d6969;
+}
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #fff;
 }
 nav ul {
     padding: 0;
@@ -54,21 +61,25 @@ nav ul li {
 nav ul li a {
     display: block;
     color: #eee;
-    padding: .5rem 0;
+    padding: .8rem 2%;
     text-decoration: none;
     font-size: .9rem;
-    text-align: center;
+   /* text-align: center;*/
+    border-top: 1px solid rgba(0,0,0,0.3);
 }
 nav ul li:first-child a {
     border-left: none;
 }
 
 nav ul li a:hover {
-    background-color: #8b9299;
+    background-color: rgba(139,146,153,0.4); 
 }
 nav ul li.active a {
-    background-color: #5d6166;
+    background-color: rgba(71,62,62,0.5);
     color: #fff;
+}
+nav ul.hide {
+    display: none;
 }
 
 /*----------- MAIN --------------*/
@@ -76,30 +87,32 @@ main {
     padding: .5rem 2%;
     min-height: 10rem;
 }
-main .weatherinfo {
+main div.weatherinfo {
     width: 100%;
     margin: .5rem auto;
+    margin: 0;
     position: relative;
 }
 main .weatherinfo img {
     width: 100%;
     margin: .5rem auto;
+    margin: 0;
 }
-main div section.weatherstat {
+main section.weatherstat {
     border: 1px solid black;
     border-radius: 10px;
     box-shadow: 0 0 20px #f7f8f9;
     position: absolute;
     top: 30px;
     left: 30px;
-    padding: 0 4px;
+    padding: 0 1%;
     background-color: rgba(192, 211, 232, 0.3)
 }
-main div section.weatherstat p {
+main section.weatherstat p {
     color: #fff; 
     text-shadow: 0 0 3px #000;
 }
-main div section.weatherstat h3 {
+main section.weatherstat h3 {
     text-shadow: 0 0 2px #fff;
 }
 main section h2 {

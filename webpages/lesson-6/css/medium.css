@@ -19,6 +19,9 @@
 
 
 /*----------- NAVIGATION --------------*/
+    nav button {
+        display: none;
+    }
     nav ul {
         padding-left: 2%;
     }
@@ -30,9 +33,18 @@
         padding: .5rem .5rem;
         font-size: .5rem;
     }
-    nav ul li a {border-left: 1px solid #777;}
-    nav ul li:first-child a {border-left: 1px solid #777;}
-    nav ul li:last-child a {border-right: 1px solid #777;}
+    nav ul.hide {
+        display: block;
+    }
+ /*   nav ul li a {
+        border-left: 1px solid #777;
+    }
+    nav ul li:first-child a {
+        border-left: 1px solid #777;
+    }
+    nav ul li:last-child a {
+        border-right: 1px solid #777;
+    }*/
     
 
 
