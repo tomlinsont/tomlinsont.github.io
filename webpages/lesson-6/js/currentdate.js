@@ -1,4 +1,4 @@
-function displayDate() {
+
     var monthNames = [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ];
     var dayNames = [ "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" ];
 			
@@ -7,4 +7,3 @@ function displayDate() {
 	var formattedDate = dayNames[newDate.getDay()] + ',' +' ' + newDate.getDate() + ' ' + monthNames[newDate.getMonth()] + ' ' + newDate.getFullYear();
 			
 	document.getElementById("outputdiv").innerHTML = formattedDate;
-}
