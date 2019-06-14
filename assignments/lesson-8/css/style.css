@@ -1,0 +1,74 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/*----------- BODY --------------*/
+
+html {
+  font-family: Ubuntu, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  box-shadow: 7px 7px 6px #628ca6; 
+  letter-spacing: 1.25px;
+  font-size: 0.7rem;
+  width: 250px;
+}
+
+table thead tr th{
+  background-color: #7fb9c2;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  text-shadow: 1px 1px #938989;
+}
+
+table tfoot tr th{
+  background-color: #7fb9c2;
+  font-size: .5rem;
+}
+
+table .row {
+  background-color: #e7ffed;    
+}
+
+table .holiday {
+  font-style: italic;
+}
+
+tr {
+  background-color: #d9e2df;
+}
+
+tr td.sg {
+    background-color: #628ca6;
+}
+
+td {
+  text-align: center;
+}
+
+td, th {
+  border: 1px solid #afacac;
+  padding: 5px 0px 5px 0px;
+}
+
+tbody tr:first-child th{
+  background-color: #628ca6;
+  text-shadow: -.5px 0 black, 0 .5px black, .5px 0 black, 0 -.5px black;
+  color: #fff;
+  font-size: .8rem
+}
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
