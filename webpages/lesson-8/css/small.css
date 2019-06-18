@@ -174,7 +174,7 @@ div.weathergallery figure figcaption {
 /***************** Form **********************/
 section.weatherform {
     width: 100%;
-    padding: 2%, 0;
+    padding: 2% 0;
     border: 3px ridge #85afbf;
     border-radius: 10px;
     background-image: linear-gradient(to right, white, #e3ecff);
