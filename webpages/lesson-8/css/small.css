@@ -1,0 +1,266 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/*----------- BODY --------------*/
+body {
+    font-size: 16px;
+    font-family: 'Poppins', Verdana, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #4b5d80;
+}
+
+/*----------- HEADER --------------*/
+header {
+    padding: .5rem 2%;
+    background-color: #e3ecff;
+    display: grid;
+    grid-template-columns: 55px auto;
+}
+header img {
+    float: left; 
+    margin-right: 10px; 
+    width: 50px; 
+}
+header h1 {
+    margin-bottom: 0;
+    margin-top: .5rem;
+    color: #4b5d80; 
+    font-family: Helvetica, Verdana, sans-serif;
+    font-size: 1.2rem;
+}
+header h2 {
+    margin: 0;
+    color: #4b5d80; 
+    font-family: Helvetica, Verdana, sans-serif;
+    font-size: .9rem; 
+    font-weight: normal;
+}
+
+/*----------- NAVIGATION --------------*/
+nav {
+    background-color: #6d6969;
+}
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #fff;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+}
+nav ul li a {
+    display: block;
+    color: #eee;
+    padding: .8rem 2%;
+    text-decoration: none;
+    font-size: .9rem;
+   /* text-align: center;*/
+    border-top: 1px solid rgba(0,0,0,0.3);
+}
+nav ul li:first-child a {
+    border-left: none;
+}
+
+nav ul li a:hover {
+    background-color: rgba(139,146,153,0.4); 
+}
+nav ul li.active a {
+    background-color: rgba(71,62,62,0.5);
+    color: #fff;
+}
+nav ul.hide {
+    display: none;
+}
+
+/*----------- MAIN --------------*/
+main {
+    padding: .5rem 2%;
+    min-height: 10rem;
+}
+main div.weatherinfo {
+    width: 100%;
+    margin: .5rem auto;
+    margin: 0;
+    position: relative;
+}
+main .weatherinfo img {
+    width: 100%;
+    margin: .5rem auto;
+    margin: 0;
+}
+main section.weatherstat {
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #f7f8f9;
+    position: absolute;
+    width: 22%;    
+    font-size: .4rem;
+    text-align: center;
+    top: 10px;
+    left: 10px;
+    padding: 0 1%;
+    background-color: rgba(192, 211, 232, 0.3)
+}
+main section.weatherstat p {
+    color: #fff; 
+    text-shadow: 0 0 3px #000;
+    font-size: .3rem;
+}
+main section.weatherstat h3 {
+    text-shadow: 0 0 3px #fff;
+}
+main section h2 {
+    display: inline-block;
+    margin-top: 3rem ;
+    margin-bottom: 1%;
+    border: 0;
+}
+main section table {
+    width: 100%; 
+    margin-top: 0;
+    margin-bottom: 4rem;    
+}
+main section table, th, td {
+    border: 1px solid black;  
+    border-collapse: collapse;
+    padding: .5rem 0;
+}
+main section table tbody tr td {
+    padding-left: 5px;
+}
+main .forcastdata {
+    display: none;
+}
+
+main figure.myphoto {
+    width: 100%;
+    margin: 0 auto;
+}
+main figure.myphoto img {
+    width: 100%;
+}
+main figure.myphoto figcaption {
+    text-align: center;
+    font-size: .75rem;
+}
+div.weathergallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+div.weathergallery figure {
+    flex-basis: 96%;
+    margin: 1rem 2%;
+}
+div.weathergallery figure img {
+    width: 100%;
+}
+div.weathergallery figure figcaption {
+    font-size: 1rem;
+}
+
+/***************** Form **********************/
+section.weatherform {
+    width: 100%;
+    padding: 2%, 0;
+    border: 3px ridge #85afbf;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, white, #e3ecff);
+   /* text-align: center;*/
+}
+section.weatherform h2 {
+    margin: 0;
+    padding: 2%;
+    text-shadow: 1px -1px #85afbf;
+    font-size: 1rem;
+}
+form fieldset {
+    margin: .5rem;
+    border: 1.5px outset #85afbf;
+    border-radius: 5px;
+}
+form legend {
+    color: #4b5d80;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+form label.userInfo, form label.stormInfo, form div {
+    display: block;
+    margin: 0;
+    padding: 1rem .25rem;
+    font-size: .8rem;
+}
+form label.userInfo input, form label.stormInfo input, form label select {
+   /* -webkit-appearance: none;*/
+    display: block;
+    border: 2px inset #cec6c6;
+    font-size: 1rem;
+    padding: .75rem;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+form label.safe {
+    margin: 1rem 1rem;
+}
+form input.submitBtn {
+    border: none;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    background-color: rgb(80, 122, 206);
+    width: 96%;
+    max-width: 20rem;
+    color: white;
+}
+form label.userInfo input:required {
+    border: 2px inset red;
+}
+form label.userInfo input:required:valid {
+    border: 2px inset #cec6c6;
+}
+
+/*----------- FOOTER --------------*/
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+    clear: both;
+}
+footer strong {
+    color: #000;
+}
+div.row {
+    clear: both;
+    width: 100%;
+}
+div.row section {
+    padding: .5rem 2%;
+    background-color: #7894cc;
+    text-align: left;
+}
+div.bottomrow {
+    font-size: .75rem;
+    padding: .15rem 0;
+}
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
