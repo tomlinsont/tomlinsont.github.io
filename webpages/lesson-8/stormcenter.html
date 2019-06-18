@@ -75,8 +75,7 @@
             <form method="get" action="thanks.html">
                 <fieldset>
                     <legend>Personal Information</legend>
-                    <label class="userInfo">First Name*<input type="text" name="fname" required></label>
-                    <label class="userInfo">Last Name*<input type="text" name="lname" required></label>
+                    <label class="userInfo">Full Name*<input type="text" name="fullname" required pattern="[/A-Z|a-z/\s]{5,}"></label>
                     <label class="userInfo">Email<input type="email" name="email" placeholder="name@email.com"></label>
                     <label class="userInfo">Phone Number* <input type="tel" name="phone" placeholder="1236547896" required></label>
                     <label class="userInfo">Zip Code*<input type="number" name="zip" required></label>
