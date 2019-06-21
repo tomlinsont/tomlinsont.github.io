@@ -11,12 +11,16 @@ body {
 }
 
 @font-face {
-  font-family: myFirstFont;
-  src: local(BADABB_.ttf);
+    font-family: 'badaboom_bbregular';
+    src: url('fonts/badabb__-webfont.woff2') format('woff2'),
+         url('fonts/badabb__-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 h1, h2 {
-  font-family: 'myFirstFont','Faster One', cursive;
+  font-family: 'badaboom_bbregular','Faster One', cursive;
   text-shadow: 1px 1px #fff;
 }
 
