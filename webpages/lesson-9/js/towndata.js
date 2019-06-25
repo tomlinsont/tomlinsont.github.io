@@ -65,7 +65,7 @@ function assembleData(x) {
             
             function showTowns (x) {
                // var towns = jsonObj['towns'];
-                console.log(myWeatherInfo.towns[x]);
+                console.log(towndata.towns[x]);
                
                 //for (var i = 0; i < towns.length; i++) {
                   //  var myArticle = document.createElement('section');
@@ -80,7 +80,7 @@ function assembleData(x) {
                     myPara2.textContent = 'Year Founded: ' + towns[x].yearFounded;
                     myPara3.textContent = 'Population: ' + towns[x].currentPopulation;
                     myPara4.textContent = 'Average Rainfall: ' + towns[x].averageRainfall;*/
-                    let townInfo = "<h2>" + myWeatherInfo.towns[x].name + "</h2>";
+                    var townInfo = "<h2>" + myWeatherInfo.towns[x].name + "</h2>";
                     
                     return townInfo;
                 }
