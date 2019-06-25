@@ -178,7 +178,7 @@ div.townInformation {
     flex-flow: row nowrap;
     justify-content: space-around;
     align-items: stretch;
-    padding: .5rem 0 .5rem .70rem;
+    padding: .5rem 0;
 }
 div.townInformation img {
     width: 100%;
