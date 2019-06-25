@@ -33,7 +33,7 @@ function assembleData(x) {
 //let townNames = jsonObj["towns"][1],["towns"][4],["towns"][5];
 //console.log(townNames);
                    
-            var requestURL = /*'file:///*/'C:/Users/Tim/Documents/gitHub_files/tomlinsont.github.io/webpages/lesson-9/json/towndata.json';
+            var requestURL = "../json/towndata.json";
             
             var myRequestObj = newXMLHttpRequest();
             
