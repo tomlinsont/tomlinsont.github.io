@@ -46,7 +46,7 @@ function assembleData(x) {
               //  populateDiv(towndata);
                 console.log(towndata);
                 
-                document.getElementById("frank").innerHTML = "hi:)";
+                document.getElementById("frank").innerHTML = "ME";
                 document.getElementById("green").innerHTML = showTowns(2);
                 document.getElementById("spring").innerHTML = showTowns(6);
             }
