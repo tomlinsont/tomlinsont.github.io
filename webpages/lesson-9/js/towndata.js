@@ -1,4 +1,3 @@
-document.getElementById("frank").innerHTML = "hi";     
 /*const myRequestObj = newXMLHttpRequest();
 
 const myRequestURL = "../json/towndata.json";
@@ -44,7 +43,7 @@ function assembleData(x) {
             myRequestObj.send();
             
             myRequestObj.onload = function() {
-                var towndata = JSON.parse(myRequestObj.response);
+                var towndata = JSON.parse(myRequestObj.responseTxt);
               //  populateDiv(towndata);
                 console.log(towndata);
                 
