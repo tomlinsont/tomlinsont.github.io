@@ -32,10 +32,9 @@ function assembleData(x) {
 
 //let townNames = jsonObj["towns"][1],["towns"][4],["towns"][5];
 //console.log(townNames);
-   
-            var requestURL = "https://github.com/tomlinsont/tomlinsont.github.io/blob/master/webpages/lesson-9/json/towndata.json";
-            
             var myRequestObj = newXMLHttpRequest();
+
+            var requestURL = "https://github.com/tomlinsont/tomlinsont.github.io/blob/master/webpages/lesson-9/json/towndata.json";
             
             myRequestObj.open('GET', requestURL);
             
@@ -47,7 +46,7 @@ function assembleData(x) {
               //  populateDiv(towndata);
                 console.log(towndata);
                 
-                document.getElementById("frank").innerHTML = "hi";
+                document.getElementById("frank").innerHTML = "hi:)";
                 document.getElementById("green").innerHTML = showTowns(2);
                 document.getElementById("spring").innerHTML = showTowns(6);
             }
