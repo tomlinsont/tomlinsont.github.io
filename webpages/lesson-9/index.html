@@ -43,8 +43,8 @@
     <nav class="clearfix">
         <button onclick="toggleMenu()">&#9776;</button>
         <ul id="primaryNav" class="hide">
-            <li><a href="#">Home</a></li>
-            <li class="active"><a href="preston.html">Preston</a></li>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
             <li><a href="stormcenter.html">Storm Center</a></li>
@@ -55,7 +55,7 @@
     
 <!-- CONTENT HERE -->
     <main class="clearfix">
-        <h1>Preston</h1>
+        
         <div class="weatherinfo">
           <!--  <figure class="weatherinfo">-->
                 <img src="images/cit230_image_franklinOriginal.jpg" alt="storm clouds" sizes="100vw" srcset="images/cit230_image_franklinOriginal400.jpg 400w,
@@ -70,60 +70,76 @@
                 <p>Wind Chill:&nbsp; <span id="showWindChill"></span>&deg;"F"</p>
             </section>
         </div>
-        <section class="forcastdata">
-            <h2>Five-day Forcast Details</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Day</th>
-                        <th>Description</th>
-                        <th>High / Low</th>
-                        <th>Wind</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="row">
-                        <td>Monday</td>
-                        <td>Partly Cloudy</td>
-                        <td>59&deg; / 36&deg;</td>
-                        <td>West <span id="wind">8</span>mph</td>
-                    </tr>
-                    <tr class="row">
-                        <td>Tuesday</td>
-                        <td>Showers</td>
-                        <td>53&deg; / 30&deg;</td>
-                        <td>SouthWest 4mph</td>    
-                    </tr>
-                    <tr class="row">
-                        <td>Wednesday</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr class="row">
-                        <td>Thursday</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr class="row">
-                        <td>Friday</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>                
-                </tbody>                
-            </table>
-        </section>
-        <figure class="myphoto">
-            <img src="images/downtownpreston.jpg" alt="Downtown Preston Idaho">
-            <figcaption>Downtown Preston, Idaho</figcaption>
-        </figure>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada tempor mollis. Mauris a lacinia ex, pretium lacinia nibh. Donec luctus nibh sed nisl suscipit ultricies. Quisque porta tellus in urna molestie, non convallis arcu mollis. Mauris nisi velit, feugiat eu rutrum eu, posuere feugiat libero. Cras efficitur faucibus ipsum eu tincidunt. Phasellus in turpis sed nulla vestibulum ornare.</p>
-
-        <p>Integer rutrum nulla ac placerat fringilla. Etiam hendrerit felis non dolor fermentum, ac pulvinar mauris interdum. Nunc interdum lectus nec felis bibendum lacinia. Morbi mollis felis mollis, scelerisque purus et, sollicitudin nibh. Suspendisse molestie eu quam varius varius. Curabitur pretium eros ultricies massa mollis, ut blandit nibh viverra. In sit amet egestas nunc, commodo luctus tellus. Sed magna urna, interdum bibendum neque in, pharetra pellentesque nisl.</p>
-
-        <p>Donec commodo ex velit, in luctus ex fermentum a. Morbi sollicitudin ornare lorem, id imperdiet ligula molestie eget. Phasellus at nisi sed mi tristique efficitur. Morbi pretium sed mi commodo ultrices. Sed at nibh ultricies, sodales urna sit amet, volutpat sapien. Nunc fermentum, purus at molestie sodales, lectus turpis gravida dolor, vel consectetur enim nulla vel dolor. Duis imperdiet, mauris vel viverra efficitur, purus sem fringilla turpis, et hendrerit urna enim id turpis.</p>
+        <div class="townInformation clearfix">
+            <!--<section class="firsttown">
+                <img src="images/franklin_idaho.jpg" alt="Franklin Idaho">
+            </section>
+            <section class="secondtown">
+                <img src="images/rainbow.jpeg" alt="Greenville Idaho">
+            </section>
+            <section class="thirdtown">
+                <img src="images/springfield_idaho.jpg" alt="Springfield Idaho">
+            </section>-->
+            <section>
+            
+            </section>
+        </div>
+        <script>
+            var div = document.querySelector('div');
+            var section = document.querySelector('section');
+        
+            var requestURL = 'file:///C:/Users/Tim/Documents/gitHub_files/tomlinsont.github.io/webpages/lesson-9/json/towndata.json';
+            
+            var request = newXMLHttpRequest();
+            
+            request.open('GET', requestURL);
+            
+            request.responseType = 'json';
+            request.send();
+            
+            request.onload = function() {
+                var towndata = request.response;
+                populateDiv(towndata);
+                showTowns(towndata);
+            }
+            
+            function populateDiv (jsonObj) {
+                var myTown1 = document.createElement('h2');
+                myTown1.textContent = jsonObj['towns'][0]['name'];
+                div.appendChild(myTown1);
+                
+                var myTown1data = document.createElement('p');
+                myTown1data.textContent = jsonObj;
+                div.appendChild(myTown1data);
+            }
+            
+            function showTowns (jsonObj) {
+                var towns = jsonObj['towns'];
+                
+                for (var i = 0; i < towns.length; i++) {
+                    var myArticle = document.createElement('section');
+                    var myH2 = document.createElement('h2');
+                    var myPara1 = document.createElement('p');
+                    var myPara2 = document.createElement('p');
+                    var myPara3 = document.createElement('p');
+                    var myPara4 = document.createElement('p');
+                    
+                    myH2.textContent = towns[i].name;
+                    myPara1.textContent = 'Motto: ' + towns[i].motto;
+                    myPara2.textContent = 'Year Founded: ' + towns[i].yearFounded;
+                    myPara3.textContent = 'Population: ' + towns[i].currentPopulation;
+                    myPara4.textContent = 'Average Rainfall: ' + towns[i].averageRainfall;
+                }
+                
+                myArticle.appendChild(myH2);
+                myArticle.appendChild(myPara1);
+                myArticle.appendChild(myPara2);
+                myArticle.appendChild(myPara3);
+                myArticle.appendChild(myPara4);
+                
+                section.appendChild(myArticle);
+            }
+        </script>
     </main>
 
     

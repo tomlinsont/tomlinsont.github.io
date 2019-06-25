@@ -171,6 +171,33 @@ div.weathergallery figure figcaption {
     font-size: 1rem;
 }
 
+div.townInformation {
+    width: 100%;
+    border: 1px solid  black;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    padding: .5rem 0;
+}
+div.townInformation img {
+    width: 100%;
+    padding: 3% 3% 0 3%;
+}
+div section.firsttown {
+    width: 31%;
+    border: 2px inset #7c7171;
+    background-color: #d3c9c9;
+}
+div section.secondtown {
+    width: 31%;
+    border: 2px inset #7c7171;
+    background-color: #d3c9c9;
+}
+div section.thirdtown {
+    width: 31%;
+    border: 2px inset #7c7171;
+    background-color: #d3c9c9;
+}
 /***************** Form **********************/
 section.weatherform {
     width: 100%;
