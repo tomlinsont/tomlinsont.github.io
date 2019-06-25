@@ -79,7 +79,7 @@ function assembleData(x) {
                     myPara2.textContent = 'Year Founded: ' + towns[x].yearFounded;
                     myPara3.textContent = 'Population: ' + towns[x].currentPopulation;
                     myPara4.textContent = 'Average Rainfall: ' + towns[x].averageRainfall;*/
-                    var townInfo = "<h2>" + myWeatherInfo.towns[x].name + "</h2>";
+                    var townInfo += "<h2>" + myWeatherInfo.towns[x].name + "</h2>";
                     
                     return townInfo;
                 }
