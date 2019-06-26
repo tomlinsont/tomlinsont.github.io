@@ -40,31 +40,19 @@ function assembleData(x) {
             let towndata;
             
             myRequestObj.open('GET', requestURL);
-            
-         /*   request.responseType = 'json';*/
+                    
             myRequestObj.send();
             
           //  myRequestObj.onload = function() {
-            alert("hi13");
+            
                  towndata = JSON.parse(myRequestObj.responseText);
-              //  populateDiv(towndata);
-              
-                console.log(towndata);
+                            
+            //    console.log(towndata);
                 
                 document.getElementById("frank").innerHTML = showTowns(5);
                 document.getElementById("green").innerHTML = showTowns(2);
                 document.getElementById("spring").innerHTML = showTowns(6);
      //       }
-            
-       /*     function populateDiv (jsonObj) {
-                var myTown1 = document.createElement('h2');
-                myTown1.textContent = jsonObj['towns'][0]['name'];
-                div.appendChild(myTown1);
-                
-                var myTown1data = document.createElement('p');
-                myTown1data.textContent = jsonObj;
-                div.appendChild(myTown1data);
-            }*/
             
             function showTowns (x) {
                // var towns = jsonObj['towns'];
