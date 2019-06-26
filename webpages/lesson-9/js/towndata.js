@@ -45,10 +45,10 @@ function assembleData(x) {
             myRequestObj.send();
             
           //  myRequestObj.onload = function() {
-                
+            alert("hi13");
                  towndata = JSON.parse(myRequestObj.responseText);
               //  populateDiv(towndata);
-              alert("hi12");
+              
                 console.log(towndata);
                 
                 document.getElementById("frank").innerHTML = showTowns(5);
