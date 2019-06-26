@@ -36,7 +36,8 @@ function assembleData(x) {
             const myRequestObj = new XMLHttpRequest();
             
             const requestURL = "https://github.com/tomlinsont/tomlinsont.github.io/blob/master/webpages/lesson-9/json/towndata.json";
-             
+            
+            let towndata;
             myRequestObj.open('GET', requestURL);
             
          /*   request.responseType = 'json';*/
@@ -44,7 +45,7 @@ function assembleData(x) {
             
             myRequestObj.onload = function() {
                 alert("hi6");
-                var towndata = JSON.parse(myRequestObj.responseText);
+                 towndata = JSON.parse(myRequestObj.responseText);
               //  populateDiv(towndata);
                 console.log(towndata);
                 
