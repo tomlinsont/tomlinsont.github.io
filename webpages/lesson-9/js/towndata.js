@@ -55,7 +55,7 @@ function assembleData(x) {
      //       }
             
             function showTowns (x) {
-               // var towns = jsonObj['towns'];
+              
                 console.log(towndata.towns[x]);
                
                 //for (var i = 0; i < towns.length; i++) {
@@ -71,7 +71,7 @@ function assembleData(x) {
                     myPara2.textContent = 'Year Founded: ' + towns[x].yearFounded;
                     myPara3.textContent = 'Population: ' + towns[x].currentPopulation;
                     myPara4.textContent = 'Average Rainfall: ' + towns[x].averageRainfall;*/
-                    var townInfo = "<h2>" + towndata.towns[x].name + "</h2>";
+                    let townInfo = "<h2>" + towndata.towns[x].name + "</h2>";
                     
                     return townInfo;
                 }
