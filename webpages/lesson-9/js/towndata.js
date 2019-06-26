@@ -40,13 +40,13 @@ function assembleData(x) {
             
          /*   request.responseType = 'json';*/
             myRequestObj.send();
-            document.getElementById("frank").innerHTML = "ME";
+            
             myRequestObj.onload = function() {
                 var towndata = JSON.parse(myRequestObj.responseTxt);
               //  populateDiv(towndata);
                 console.log(towndata);
                 
-                
+                document.getElementById("frank").innerHTML = showTowns(5);
                 document.getElementById("green").innerHTML = showTowns(2);
                 document.getElementById("spring").innerHTML = showTowns(6);
             }
