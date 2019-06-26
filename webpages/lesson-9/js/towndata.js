@@ -38,10 +38,10 @@ function assembleData(x) {
             const requestURL = "https://github.com/tomlinsont/tomlinsont.github.io/blob/master/webpages/lesson-9/json/towndata.json";
              
             myRequestObj.open('GET', requestURL);
-            alert("hi3");
+            
          /*   request.responseType = 'json';*/
             myRequestObj.send();
-            
+            alert("hi4");
             myRequestObj.onload = function() {
                 var towndata = JSON.parse(myRequestObj.responseText);
               //  populateDiv(towndata);
