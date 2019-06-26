@@ -34,7 +34,7 @@ function assembleData(x) {
 //console.log(townNames);
             
             const myRequestObj = newXMLHttpRequest();
-            alert("hi");
+            
             const requestURL = "https://github.com/tomlinsont/tomlinsont.github.io/blob/master/webpages/lesson-9/json/towndata.json";
             
             myRequestObj.open('GET', requestURL);
@@ -43,7 +43,7 @@ function assembleData(x) {
             myRequestObj.send();
             
             myRequestObj.onload = function() {
-                var towndata = JSON.parse(myRequestObj.responseTxt);
+                var towndata = JSON.parse(myRequestObj.responseText);
               //  populateDiv(towndata);
                 console.log(towndata);
                 
