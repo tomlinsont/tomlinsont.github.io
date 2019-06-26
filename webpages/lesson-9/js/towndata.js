@@ -35,7 +35,8 @@ function assembleData(x) {
             
             const myRequestObj = new XMLHttpRequest();
             
-            const requestURL = "https://github.com/tomlinsont/tomlinsont.github.io/blob/master/webpages/lesson-9/json/towndata.json";
+            const requestURL = "towndata.json"
+            /*"https://github.com/tomlinsont/tomlinsont.github.io/blob/master/webpages/lesson-9/json/towndata.json";*/
             
             let towndata;
             
