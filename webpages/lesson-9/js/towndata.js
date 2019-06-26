@@ -43,9 +43,9 @@ function assembleData(x) {
             
          /*   request.responseType = 'json';*/
             myRequestObj.send();
-            alert("hi10");
+            
             myRequestObj.onload = function() {
-                
+                alert("hi11");
                  towndata = JSON.parse(myRequestObj.responseText);
               //  populateDiv(towndata);
                 console.log(towndata);
