@@ -48,7 +48,7 @@ function assembleData(x) {
                  towndata = JSON.parse(myRequestObj.responseText);
                             
             //    console.log(towndata);
-                
+            alert("hi14");
                 document.getElementById("frank").innerHTML = showTowns(5);
                 document.getElementById("green").innerHTML = showTowns(2);
                 document.getElementById("spring").innerHTML = showTowns(6);
