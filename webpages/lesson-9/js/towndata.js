@@ -40,10 +40,10 @@ function assembleData(x) {
             let towndata;
             
             myRequestObj.open('GET', requestURL);
-            alert("hi9");
+            
          /*   request.responseType = 'json';*/
             myRequestObj.send();
-            
+            alert("hi10");
             myRequestObj.onload = function() {
                 
                  towndata = JSON.parse(myRequestObj.responseText);
