@@ -38,12 +38,12 @@ function assembleData(x) {
             const requestURL = "https://github.com/tomlinsont/tomlinsont.github.io/blob/master/webpages/lesson-9/json/towndata.json";
             
             let towndata;
-            alert("hi7");
+            
             myRequestObj.open('GET', requestURL);
             
          /*   request.responseType = 'json';*/
             myRequestObj.send();
-            
+            alert("hi8");
             myRequestObj.onload = function() {
                 
                  towndata = JSON.parse(myRequestObj.responseText);
