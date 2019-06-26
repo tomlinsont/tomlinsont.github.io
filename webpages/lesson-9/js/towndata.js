@@ -34,9 +34,9 @@ function assembleData(x) {
 //console.log(townNames);
             
             const myRequestObj = new XMLHttpRequest();
-            alert("hi");
-            const requestURL = "https://github.com/tomlinsont/tomlinsont.github.io/blob/master/webpages/lesson-9/json/towndata.json";
             
+            const requestURL = "https://github.com/tomlinsont/tomlinsont.github.io/blob/master/webpages/lesson-9/json/towndata.json";
+            alert("hi2"); 
             myRequestObj.open('GET', requestURL);
             
          /*   request.responseType = 'json';*/
