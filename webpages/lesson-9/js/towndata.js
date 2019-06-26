@@ -44,7 +44,7 @@ function assembleData(x) {
          /*   request.responseType = 'json';*/
             myRequestObj.send();
             
-            myRequestObj.onload = function() {
+          //  myRequestObj.onload = function() {
                 alert("hi11");
                  towndata = JSON.parse(myRequestObj.responseText);
               //  populateDiv(towndata);
@@ -53,7 +53,7 @@ function assembleData(x) {
                 document.getElementById("frank").innerHTML = showTowns(5);
                 document.getElementById("green").innerHTML = showTowns(2);
                 document.getElementById("spring").innerHTML = showTowns(6);
-            }
+     //       }
             
        /*     function populateDiv (jsonObj) {
                 var myTown1 = document.createElement('h2');
