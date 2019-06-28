@@ -84,7 +84,7 @@
     div.townInformation {
         width: 100%;
         display: flex;
-        flex-flow: column;
+        flex-flow: row;
         justify-content: space-between;
         align-items: center;
         padding: .5rem 0 .5rem 1rem;
