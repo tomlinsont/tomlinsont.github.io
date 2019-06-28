@@ -90,6 +90,16 @@
      /*   padding: .5rem 0 .5rem 1rem;
         max-width: 300px;*/
     }
+    div section.firsttown {
+        width: 32%;
+    }
+    div section.secondtown {
+        width: 32%;
+    }
+    div section.thirdtown {
+        width: 32%;
+    }
+
 /*----------- Form ------------*/
 section.weatherform h2 {
     font-size: 1.5rem;
