@@ -82,13 +82,11 @@
     }
 
     div.townInformation {
-        border: 1px solid black;
-        margin: 0;
         width: 100%;
         display: flex;
-        flex-flow: row nowrap;
+        flex-flow: column;
         justify-content: space-between;
-      /*  align-items: stretch;*/
+        align-items: center;
         padding: .5rem 0 .5rem 1rem;
         max-width: 300px;
     }
