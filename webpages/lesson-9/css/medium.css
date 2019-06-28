@@ -83,12 +83,12 @@
 
     div.townInformation {
         width: 100%;
-        border: 1px solid black;
+       /* border: 1px solid black;*/
         display: flex;
         flex-flow: row;
         justify-content: space-between;
         align-items: stretch;
-        padding: 2% 3%;
+        padding: 2% 2.5%;
         margin: 0;
         max-width: 1200px;
     }
