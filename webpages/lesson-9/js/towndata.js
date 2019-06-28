@@ -19,6 +19,10 @@ function completeTownData(x) {
     console.log(myRequestData.towns[x]);
 
     let townInfo = "<h2>" + myRequestData.towns[x].name + "</h2>";
+    townInfo += "<i>" + myRequestData.towns[x].motto + "</i>";
+    townInfo += "<p>" + myRequestData.towns[x].yearFounded + "</p>";
+    townInfo += "<p>" + myRequestData.towns[x].currentPopulation + "</p>";
+    townInfo += "<p>" + myRequestData.towns[x].averageRainfall + "</p>";
 
     return townInfo;
 }
