@@ -7,5 +7,7 @@ myRequestObj.responseType = 'json';
 myRequestObj.send();
 let myRequestData;
 
-
-myRequestData = JSON.parse(myRequestObj.responseText);    
+myRequestObj.onload = function() {
+    myRequestData = JSON.parse(myRequestObj.responseText);    
+    console.log(myRequestData);
+}
