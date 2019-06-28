@@ -176,7 +176,7 @@ div.townInformation {
   /*  border: 1px solid  black;*/
     display: flex;
     flex-flow: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: stretch;
     padding: .5rem 0 .5rem 1rem;
 }
