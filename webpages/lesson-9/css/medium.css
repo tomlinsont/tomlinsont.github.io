@@ -86,18 +86,18 @@
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-evenly;
-        align-items: stretch;
-        padding: .5rem 0 .5rem 1rem;
+      /*  align-items: stretch;*/
+       /* padding: .5rem 0 .5rem 1rem;*/
         max-width: 300px;
     }
     div section.firsttown {
-        width: 50%;
+        width: 33%;
     }
     div section.secondtown {
-        width: 50%;
+        width: 33%;
     }
     div section.thirdtown {
-        width: 50%;
+        width: 33%;
     }
 
 /*----------- Form ------------*/
