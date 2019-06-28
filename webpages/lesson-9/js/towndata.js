@@ -1,4 +1,4 @@
-var requestURL = 'https://github.com/tomlinsont/tomlinsont.github.io/blob/master/webpages/lesson-9/js/towndata.json';
+var requestURL = 'towndata.json';
 
 var myRequestObj = new XMLHttpRequest();
 
