@@ -94,8 +94,8 @@
     }
     div section.firsttown, div section.secondtown, div section.thirdtown {
         width: 31%;
-        margin: 0;
-        padding-left: 2%;
+        margin: 0 0 0 2%;
+        padding: 0;
     }
     
 /*----------- Form ------------*/
