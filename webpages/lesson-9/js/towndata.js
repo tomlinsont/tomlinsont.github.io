@@ -1,13 +1,25 @@
-var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+/*var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 
 var myRequestObj = new XMLHttpRequest();
 
 myRequestObj.open('GET', requestURL);
-myRequestObj.responseType = 'json';
-myRequestObj.send();
+myRequestObj.responseType = '';
+myRequestObj.send();*/
+var myRequestObj = require("./towndata.json");
+
 let myRequestData;
 
 myRequestObj.onload = function() {
     myRequestData = JSON.parse(myRequestObj.responseText);    
     console.log(myRequestData);
+
+    document.getElementById("frank").innerHTML = completeTownData(0);
+}
+
+function completeTownData(x) {
+    console.log(myRequestData.towns[x]);
+
+    let townInfo = "<h2>" + myRequestData.towns[x].name + "</h2>";
+
+    return townInfo;
 }
