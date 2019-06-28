@@ -8,4 +8,3 @@ let myRequestData;
 
 
 myRequestData = JSON.parse(myRequestObj.responseText);    
-alert(myRequestData[0]);
