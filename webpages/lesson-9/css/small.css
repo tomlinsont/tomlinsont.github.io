@@ -211,6 +211,10 @@ div section.thirdtown {
     padding: 3% 3%;
     text-align: center;
 }
+#frank h {
+    display: block;
+}
+
 /***************** Form **********************/
 section.weatherform {
     width: 100%;
