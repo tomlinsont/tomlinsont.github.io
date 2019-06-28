@@ -175,7 +175,7 @@ div.townInformation {
     width: 100%;
   /*  border: 1px solid  black;*/
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column;
     justify-content: space-around;
     align-items: stretch;
     padding: .5rem 0 .5rem 1rem;
