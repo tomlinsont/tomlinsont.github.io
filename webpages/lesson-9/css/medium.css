@@ -87,7 +87,7 @@
         flex-flow: row;
         justify-content: flex-start;
         /*align-items: center;*/
-        padding: .5rem 0 .5rem 1rem;
+       /* padding: .5rem 0 .5rem 1rem;*/
         max-width: 300px;
     }
     div section.firsttown {
