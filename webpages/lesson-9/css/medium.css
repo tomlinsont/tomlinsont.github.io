@@ -83,7 +83,7 @@
 
     div.townInformation {
         border: 1px solid black;
-        margin: 0;
+        margin-right: 0;
         width: 100%;
         display: flex;
         flex-flow: row nowrap;
@@ -93,14 +93,14 @@
         max-width: 300px;
     }
     div section.firsttown {
-        width: 100%;
+        width: 33%;
     }
-/*    div section.secondtown {
+    div section.secondtown {
         width: 33%;
     }
     div section.thirdtown {
         width: 33%;
-    }*/
+    }
 
 /*----------- Form ------------*/
 section.weatherform h2 {
