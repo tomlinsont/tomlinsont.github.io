@@ -92,14 +92,14 @@
         max-width: 300px;
     }
     div section.firsttown {
-        width: 33%;
+        width: 100%;
     }
-    div section.secondtown {
+/*    div section.secondtown {
         width: 33%;
     }
     div section.thirdtown {
         width: 33%;
-    }
+    }*/
 
 /*----------- Form ------------*/
 section.weatherform h2 {
