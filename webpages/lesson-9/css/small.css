@@ -173,12 +173,12 @@ div.weathergallery figure figcaption {
 
 div.townInformation {
     width: 100%;
-  /*  border: 1px solid  black;*/
     display: flex;
     flex-flow: column;
     justify-content: space-between;
     align-items: center;
     padding: .5rem 0 .5rem 1rem;
+    max-width: 300px;
 }
 div.townInformation img {
     width: 100%;
