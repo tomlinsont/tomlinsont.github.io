@@ -89,7 +89,7 @@
         justify-content: space-between;
         align-items: stretch;
         padding: 2%;
-        margin-left: 2%;
+        margin-left: 2rem;
         max-width: 1200px;
     }
     div section.firsttown, div section.secondtown, div section.thirdtown {
