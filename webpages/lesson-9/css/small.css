@@ -173,7 +173,7 @@ div.weathergallery figure figcaption {
 
 div.townInformation {
     width: 100%;
-    display: flex;
+    display: flex;    
     flex-flow: column;
     justify-content: space-between;
     align-items: center;
