@@ -86,13 +86,13 @@
         width: 100%;
         display: flex;
         flex-flow: row nowrap;
-       /*justify-content: space-around;
-        align-items: stretch;*/
+        justify-content: space-between;
+      /*  align-items: stretch;*/
         /*padding: .5rem 0 .5rem 1rem;*/
         max-width: 300px;
     }
     div section.firsttown {
-        width: 60%;
+        width: 33%;
     }
     div section.secondtown {
         width: 33%;
