@@ -214,6 +214,7 @@ div section.thirdtown {
 #frank h2, i, p {
     display: block;
     margin: 0;
+    padding: 2% 0;
 }
 
 /***************** Form **********************/
