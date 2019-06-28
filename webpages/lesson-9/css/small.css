@@ -202,6 +202,10 @@ div section.thirdtown {
     background-color: #d3c9c9;
    
 }
+ 
+#frank {
+    background-image: linear-gradient(to bottom #e2e2e2 #fefefe)
+}
 /***************** Form **********************/
 section.weatherform {
     width: 100%;
