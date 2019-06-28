@@ -185,19 +185,19 @@ div.townInformation img {
     padding: 3% 3% 0 3%;
 }
 div section.firsttown {
-    width: 31%;
+    width: 100%;
     border: 2px inset #7c7171;
     background-color: #d3c9c9;
     
 }
 div section.secondtown {
-    width: 31%;
+    width: 100%;
     border: 2px inset #7c7171;
     background-color: #d3c9c9;
    
 }
 div section.thirdtown {
-    width: 31%;
+    width: 100%;
     border: 2px inset #7c7171;
     background-color: #d3c9c9;
    
