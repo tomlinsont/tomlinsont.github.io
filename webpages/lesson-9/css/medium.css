@@ -83,7 +83,7 @@
 
     div.townInformation {
         border: 1px solid black;
-        width: 100%;
+        width: 37rem%;
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-between;
