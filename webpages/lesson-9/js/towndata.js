@@ -13,8 +13,8 @@ onload = function() {
     console.log(myRequestData);
 
     document.getElementById("frank").innerHTML = completeTownData(0);
-  /*  document.getElementById("green").innerHTML = completeTownData(2);
-    document.getElementById("spring").innerHTML = completeTownData(6);*/
+    document.getElementById("green").innerHTML = completeTownData(2);
+    document.getElementById("spring").innerHTML = completeTownData(6);
 }
 
 function completeTownData(x) {
