@@ -1,9 +1,11 @@
-var requestURL = 'towndata.json';
+var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 
 var myRequestObj = new XMLHttpRequest();
 
 myRequestObj.open('GET', requestURL);
 myRequestObj.send();
+let myRequestData;
 
-var myRequestData = JSON.parse(myRequestObj.responseText);    
+
+myRequestData = JSON.parse(myRequestObj.responseText);    
 console.log(requestURL);
