@@ -216,6 +216,16 @@ div section.thirdtown {
     margin: 0;
     padding: 2% 0;
 }
+#green h2, i, p {
+    display: block;
+    margin: 0;
+    padding: 2% 0;
+}
+#spring h2, i, p {
+    display: block;
+    margin: 0;
+    padding: 2% 0;
+}
 
 /***************** Form **********************/
 section.weatherform {
