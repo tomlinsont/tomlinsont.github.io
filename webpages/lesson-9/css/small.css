@@ -173,7 +173,7 @@ div.weathergallery figure figcaption {
 
 div.townInformation {
     width: 100%;
-    border: 1px solid  black;
+  /*  border: 1px solid  black;*/
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
