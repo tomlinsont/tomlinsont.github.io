@@ -22,9 +22,9 @@ function completeTownData(x) {
 
     let townInfo = "<h2>" + myRequestData.towns[x].name + "</h2>";
     townInfo += "<i>" + myRequestData.towns[x].motto + "</i>";
-    townInfo += "<p>" + myRequestData.towns[x].yearFounded + "</p>";
-    townInfo += "<p>" + myRequestData.towns[x].currentPopulation + "</p>";
-    townInfo += "<p>" + myRequestData.towns[x].averageRainfall + "</p>";
+    townInfo += "<p>" + "Year Founded: " + myRequestData.towns[x].yearFounded + "</p>";
+    townInfo += "<p>" + "Population: " + myRequestData.towns[x].currentPopulation + "</p>";
+    townInfo += "<p>" + "Annual Rainfall: " + myRequestData.towns[x].averageRainfall + "</p>";
 
     return townInfo;
 }
