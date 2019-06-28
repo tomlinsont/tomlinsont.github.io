@@ -92,16 +92,11 @@
         margin: 0;
         max-width: 1200px;
     }
-    div section.firsttown {
+    div section.firsttown, div section.secondtown, div section.thirdtown {
         width: 31%;
+        margin: 0;
     }
-    div section.secondtown {
-        width: 31%;
-    }
-    div section.thirdtown {
-        width: 31%;
-    }
-
+    
 /*----------- Form ------------*/
 section.weatherform h2 {
     font-size: 1.5rem;
