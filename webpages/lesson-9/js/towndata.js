@@ -5,12 +5,12 @@ var myRequestObj = new XMLHttpRequest();
 myRequestObj.open('GET', requestURL);
 myRequestObj.responseType = '';
 myRequestObj.send();*/
-var myRequestObj = require("./towndata.json");
+import { onload, responseText } from "./json/towndata.json";
 
 let myRequestData;
 
-myRequestObj.onload = function() {
-    myRequestData = JSON.parse(myRequestObj.responseText);    
+onload = function() {
+    myRequestData = JSON.parse(responseText);    
     console.log(myRequestData);
 
     document.getElementById("frank").innerHTML = completeTownData(0);
