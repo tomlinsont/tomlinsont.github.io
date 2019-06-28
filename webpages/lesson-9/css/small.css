@@ -211,7 +211,7 @@ div section.thirdtown {
     text-align: center;
 }
 #frank h {
-    display: block;
+    display: inline-block;
 }
 
 /***************** Form **********************/
