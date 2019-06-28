@@ -97,6 +97,9 @@
         margin: 0;
         padding: 0;
     }
+    #frank, #green, #spring {
+        font-size: 1.25rem;
+    }
     
 /*----------- Form ------------*/
 section.weatherform h2 {
