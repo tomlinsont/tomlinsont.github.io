@@ -205,6 +205,7 @@ div section.thirdtown {
  
 #frank {
     background-image: linear-gradient(to bottom, #e2e2e2, #fefefe);
+    padding: 3% 3% 0 3%;
 }
 /***************** Form **********************/
 section.weatherform {
