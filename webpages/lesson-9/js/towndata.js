@@ -13,8 +13,8 @@ onload = function() {
     console.log(myRequestData);
 
     document.getElementById("frank").innerHTML = completeTownData(0);
-    document.getElementById("green").innerHTML = completeTownData(2);
-    document.getElementById("spring").innerHTML = completeTownData(6);
+  /*  document.getElementById("green").innerHTML = completeTownData(2);
+    document.getElementById("spring").innerHTML = completeTownData(6);*/
 }
 
 function completeTownData(x) {
@@ -22,9 +22,9 @@ function completeTownData(x) {
 
     let townInfo = "<h2>" + myRequestData.towns[x].name + "</h2>";
     townInfo += "<i>" + myRequestData.towns[x].motto + "</i>";
-    townInfo += "<p>" + myRequestData.towns[x].yearFounded + "</p>";
+   /* townInfo += "<p>" + myRequestData.towns[x].yearFounded + "</p>";
     townInfo += "<p>" + myRequestData.towns[x].currentPopulation + "</p>";
-    townInfo += "<p>" + myRequestData.towns[x].averageRainfall + "</p>";
+    townInfo += "<p>" + myRequestData.towns[x].averageRainfall + "</p>";*/
 
     return townInfo;
 }
