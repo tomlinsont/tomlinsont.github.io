@@ -211,7 +211,7 @@ div section.thirdtown {
     text-align: center;
     font-size: 1rem;
 }
-#frank h2 {
+#frank h2, i, p {
     display: block;
     margin: 0;
 }
