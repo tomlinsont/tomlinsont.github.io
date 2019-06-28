@@ -208,6 +208,7 @@ div section.thirdtown {
     margin: 0% 3% 3% 3%;;
     border: 1px inset #7c7171;
     padding: 3% 3%;
+    text-align: center;
 }
 /***************** Form **********************/
 section.weatherform {
