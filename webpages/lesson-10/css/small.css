@@ -123,6 +123,7 @@ main section.weatherstat h3 {
     text-shadow: 0 0 3px #fff;
     color: #000;
     font-size: .75rem;
+    margin-bottom: .5rem;
 }
 main section h2 {
     display: inline-block;
