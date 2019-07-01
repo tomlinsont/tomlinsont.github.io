@@ -60,7 +60,7 @@
         font-size: .5rem;
     }
     main section.weatherstat h3 {
-        font-size: 1em;
+       /* font-size: 1em;*/
     }
     main figure.myphoto {
         width: 48%;
