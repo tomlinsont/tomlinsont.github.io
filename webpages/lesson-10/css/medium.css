@@ -59,6 +59,9 @@
     main section.weatherstat p {
         font-size: .5rem;
     }
+    main section.weatherstat h3 {
+        font-size: .75rem;
+    }
     main figure.myphoto {
         width: 48%;
         float: right;
