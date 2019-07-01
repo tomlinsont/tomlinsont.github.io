@@ -121,6 +121,7 @@ main section.weatherstat p {
 }
 main section.weatherstat h3 {
     text-shadow: 0 0 3px #fff;
+    color: #565252;
 }
 main section h2 {
     display: inline-block;
