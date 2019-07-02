@@ -3,22 +3,22 @@
 * Processing: Call function windChill and store value returned from function windChill
 * Output: Display to user the value returned from function windChill
 *******************************************************/
+function getWindChill() {
+	// Input Temperature and Wind Speed
+	var tempFH = parseFloat(document.getElementById("hightemp").innerHTML);
+	var tempFL = parseFloat(document.getElementById("lowtemp").innerHTML);
 
-// Input Temperature and Wind Speed
-var tempFH = parseFloat(document.getElementById("hightemp").innerHTML);
-var tempFL = parseFloat(document.getElementById("lowtemp").innerHTML);
+	var windSpeed = parseFloat(document.getElementById("wind").innerHTML);
 
-var windSpeed = parseFloat(document.getElementById("wind").innerHTML);
+	// Ave temp between the high and low 
+	var tempF = (tempFH + tempFL)/2;
 
-// Ave temp between the high and low 
-var tempF = (tempFH + tempFL)/2;
+	// Call windChill function to calculate wind chill
+	var chill = windChill(tempF, windSpeed);
 
-// Call windChill function to calculate wind chill
-var chill = windChill(tempF, windSpeed);
-
-// Display wind chill in fahrenheit, includes character encoding for degrees
-document.getElementById("showWindChill").innerHTML = chill;
-
+	// Display wind chill in fahrenheit, includes character encoding for degrees
+	document.getElementById("showWindChill").innerHTML = chill;
+}
 			
 /*****************************************************
 * Input: Temperature and windspeed parameters passed from function doInputOutput()
