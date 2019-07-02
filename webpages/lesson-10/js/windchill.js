@@ -3,7 +3,7 @@
 * Processing: Call function windChill and store value returned from function windChill
 * Output: Display to user the value returned from function windChill
 *******************************************************/
-function getWindChill() {
+
 	// Input Temperature and Wind Speed
 	var tempFH = parseFloat(document.getElementById("hightemp").innerHTML);
 	var tempFL = parseFloat(document.getElementById("lowtemp").innerHTML);
@@ -18,7 +18,7 @@ function getWindChill() {
 
 	// Display wind chill in fahrenheit, includes character encoding for degrees
 	document.getElementById("showWindChill").innerHTML = chill;
-}
+
 			
 /*****************************************************
 * Input: Temperature and windspeed parameters passed from function doInputOutput()
