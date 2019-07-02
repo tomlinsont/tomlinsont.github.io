@@ -113,7 +113,7 @@ main section.weatherstat {
     left: 10px;
     padding: 0 1%;
     background-color: rgba(192, 211, 232, 0.3);
-    margin-bottom: .25rem;
+    margin-top: -.25rem;
 }
 main section.weatherstat p {
     color: #fff; 
