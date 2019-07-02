@@ -9,7 +9,7 @@ weatherRequest.send();
 weatherRequest.onload = function() {
     let weatherData = JSON.parse(weatherRequest.responseText);
     console.log (weatherData);
-
+/*
     document.getElementById("lowtemp").innerHTML = weatherData.main.temp;
-    document.getElementById("hightemp").innerHTML = weatherData.main.temp
+    document.getElementById("hightemp").innerHTML = weatherData.main.temp*/
 }
