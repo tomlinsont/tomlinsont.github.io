@@ -13,5 +13,5 @@ weatherRequest.onload = function() {
     document.getElementById("lowtemp").innerHTML = weatherData.main.temp_min;
     document.getElementById("hightemp").innerHTML = weatherData.main.temp_max;
     document.getElementById("wind").innerHTML = weatherData.wind.speed;
-    document.getElementById("showWindChill").innerHTML = "<script src=\"windchill.js\"></script>";
+    "<script src="windchill.js"></script>";
 }
