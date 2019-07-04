@@ -17,6 +17,6 @@ weatherRequest.onload = function() {
 
     const iconcode = weatherData.weather[0].icon;
     const icon_path = "//openweathermap.org/img/wn/" + iconcode + ".png";
-console.log(iconcode);
+console.log(icon_path);
   /*  document.getElementById("weather_icon").src = icon_path;*/
 }
