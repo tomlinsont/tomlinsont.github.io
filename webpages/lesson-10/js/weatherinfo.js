@@ -24,21 +24,15 @@ weatherRequest.onload = function() {
     document.getElementById("weather_icon").src = icon_path;
 
     // Ave Temperature and Wind Speed
-const tempF = ((weatherData.main.temp_max) + (weatherData.main.temp_min)) / 2;
-const wind_Speed = weatherData.wind.speed;
-console.log(tempF);
+    const tempF = ((weatherData.main.temp_max) + (weatherData.main.temp_min)) / 2;
+    const wind_Speed = weatherData.wind.speed;
+
+    // Call windChill function to calculate wind chill
+    const chill = windChill(tempF, wind_Speed);
+
+    // Display wind chill in fahrenheit, includes character encoding for degrees
+	document.getElementById("showWindChill").innerHTML = chill;
 }
-
-// Ave Temperature and Wind Speed
-/*const tempF = ((weatherData.main.temp_max) + (weatherData.main.temp_min)) / 2;
-const wind_Speed = weatherData.main.wind.speed;
-console.log(temp_min);*/
-// Call windChill function to calculate wind chill
-/*const chill = windChill(tempF, windSpeed);
-	
-
-	// Display wind chill in fahrenheit, includes character encoding for degrees
-	document.getElementById("showWindChill").innerHTML = chill;*/
 
 			
 /*****************************************************
