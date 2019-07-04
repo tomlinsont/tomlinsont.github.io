@@ -26,7 +26,7 @@ weatherRequest.onload = function() {
     // Ave Temperature and Wind Speed
 const tempF = ((weatherData.main.temp_max) + (weatherData.main.temp_min)) / 2;
 const wind_Speed = weatherData.wind.speed;
-console.log(temp_min);
+console.log(tempF);
 }
 
 // Ave Temperature and Wind Speed
