@@ -23,13 +23,16 @@ weatherRequest.onload = function() {
 
     document.getElementById("weather_icon").src = icon_path;
 
-    
-}
-
-// Ave Temperature and Wind Speed
+    // Ave Temperature and Wind Speed
 const tempF = ((weatherData.main.temp_max) + (weatherData.main.temp_min)) / 2;
 const wind_Speed = weatherData.main.wind.speed;
 console.log(temp_min);
+}
+
+// Ave Temperature and Wind Speed
+/*const tempF = ((weatherData.main.temp_max) + (weatherData.main.temp_min)) / 2;
+const wind_Speed = weatherData.main.wind.speed;
+console.log(temp_min);*/
 // Call windChill function to calculate wind chill
 /*const chill = windChill(tempF, windSpeed);
 	
