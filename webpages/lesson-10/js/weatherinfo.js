@@ -10,14 +10,14 @@ weatherRequest.onload = function() {
     let weatherData = JSON.parse(weatherRequest.responseText);
     console.log (weatherData);
 
-    document.getElementById("lowtemp").innerHTML = weatherData.main.temp_min;
+    document.getElementById("humidity").innerHTML = weatherData.main.humidity;
     document.getElementById("hightemp").innerHTML = weatherData.main.temp_max;
     document.getElementById("wind").innerHTML = weatherData.wind.speed;
     "<script src=\"windchill.js\"></script>";
 
     const description = weatherData.weather[0].description;
     document.getElementById("weatherdescription").innerHTML = description;
-    
+
     const iconcode = weatherData.weather[0].icon;
     const icon_path = "//openweathermap.org/img/wn/" + iconcode + ".png";
 console.log(icon_path);
