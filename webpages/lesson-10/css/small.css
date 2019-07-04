@@ -127,7 +127,9 @@ main section.weatherstat h3 {
     font-size: .8rem;
     margin: .25rem 0;
 }
-
+main .weathericon {
+    width: 10%;
+}
 main section h2 {
     display: inline-block;
     margin-top: 3rem ;
