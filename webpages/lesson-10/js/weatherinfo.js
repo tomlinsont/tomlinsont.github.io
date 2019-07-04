@@ -15,6 +15,9 @@ weatherRequest.onload = function() {
     document.getElementById("wind").innerHTML = weatherData.wind.speed;
     "<script src=\"windchill.js\"></script>";
 
+    const description = weatherData.weather[0].description;
+    document.getElementById("weatherdescription").innerHTML = description;
+    
     const iconcode = weatherData.weather[0].icon;
     const icon_path = "//openweathermap.org/img/wn/" + iconcode + ".png";
 console.log(icon_path);
