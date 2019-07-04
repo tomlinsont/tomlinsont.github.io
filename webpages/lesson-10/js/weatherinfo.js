@@ -14,4 +14,9 @@ weatherRequest.onload = function() {
     document.getElementById("hightemp").innerHTML = weatherData.main.temp_max;
     document.getElementById("wind").innerHTML = weatherData.wind.speed;
     "<script src=\"windchill.js\"></script>";
+
+    const iconcode = weatherInfo.weather[0].icon;
+    const icon_path = "//openweathermap.org/img/w/" + iconcode + ".png";
+
+    document.getElementById("weather_icon").src = icon_path;
 }
