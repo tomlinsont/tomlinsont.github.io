@@ -129,6 +129,7 @@ main section.weatherstat h3 {
 }
 main .weathericon {
     width: 25%;
+    margin: 0 auto;
 }
 main section h2 {
     display: inline-block;
