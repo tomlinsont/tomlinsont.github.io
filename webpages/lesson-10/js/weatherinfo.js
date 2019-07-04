@@ -16,7 +16,7 @@ weatherRequest.onload = function() {
     "<script src=\"windchill.js\"></script>";
 
     const iconcode = weatherInfo.weather[0].icon;
-    const icon_path = "//openweathermap.org/img/w/" + iconcode + ".png";
+    const icon_path = "//openweathermap.org/img/wn/" + iconcode + ".png";
 
     document.getElementById("weather_icon").src = icon_path;
 }
