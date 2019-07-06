@@ -1,13 +1,14 @@
 // Array for the days of the week.
 var dayNames = [ "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" ];
-
+/*
 const day = new Date();
 console.log(day);
 
 const newDay = day.getDay();
 console.log(newDay);
 console.log(dayNames[newDay]);
-
+*/
+console.log(newDate.getDay());
 
 let forcastRequest = new XMLHttpRequest();
 
