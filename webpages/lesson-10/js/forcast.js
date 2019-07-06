@@ -2,8 +2,11 @@
 var dayNames = [ "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" ];
 
 const day = new Date();
+console.log(day);
+
 const newDay = day.getDay();
 console.log(newDay);
+console.log(dayNames[newDay]);
 
 
 let forcastRequest = new XMLHttpRequest();
