@@ -30,10 +30,6 @@ forcastRequest.onload = function() {
         let forcastTime = forcastList[i].dt_txt;
         console.log(forcastTime);
 
-        if ( forcastTime.match("18:00:00"))
-        {
-            console.log(forcastTime);
-            
-        }
+       
     }
 }
