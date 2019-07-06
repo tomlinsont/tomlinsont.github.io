@@ -1,3 +1,11 @@
+// Array for the days of the week.
+var dayNames = [ "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" ];
+
+const day = new Date();
+const newDay = day.getDay();
+console.log(newDay);
+
+/*
 let forcastRequest = new XMLHttpRequest();
 
 var apiURLstring = '//api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=dd11f546924470c26cb3acba8d198320';
@@ -11,4 +19,4 @@ forcastRequest.onload = function() {
     console.log (forcastData);
 
    
-}
+}*/
