@@ -33,6 +33,7 @@ forcastRequest.onload = function() {
         if ( forcastTime.match("18:00:00"))
         {
             console.log(forcastTime);
+            
         }
     }
 }
