@@ -1,14 +1,14 @@
 // Array for the days of the week.
 var dayNames = [ "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" ];
-/*
+
 const day = new Date();
 console.log(day);
 
 const newDay = day.getDay();
 console.log(newDay);
 console.log(dayNames[newDay]);
-*/
-console.log(newDate.getDay());
+
+
 
 let forcastRequest = new XMLHttpRequest();
 
@@ -22,6 +22,11 @@ forcastRequest.onload = function() {
     let forcastData = JSON.parse(forcastRequest.responseText);
     console.log (forcastData);
 
-    let list = forcastData.list;
+    let forcastList = forcastData.list;
     console.log(list.length);
+/*
+    for (i = 0; i < forcastList.length; i++)
+    {
+
+    }*/
 }
