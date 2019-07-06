@@ -23,7 +23,7 @@ forcastRequest.onload = function() {
     console.log (forcastData);
 
     let forcastList = forcastData.list;
-    console.log(list.length);
+    console.log(forcastList.length);
 /*
     for (i = 0; i < forcastList.length; i++)
     {
