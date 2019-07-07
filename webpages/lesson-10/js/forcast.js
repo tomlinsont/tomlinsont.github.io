@@ -30,6 +30,11 @@ forcastRequest.onload = function() {
         let forcastTime = forcastList[i].dt_txt;
         if (forcastTime.match(/18:00:00/gi))
         {
+            if (newDay = 6)
+            {
+                newDay += 1;
+            }
+            
             console.log(forcastTime);
             console.log(newDay);
         }       
