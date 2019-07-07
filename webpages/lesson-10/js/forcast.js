@@ -38,6 +38,9 @@ forcastRequest.onload = function() {
             console.log(newDay);
             console.log(dayNames[newDay]);
             newDay += 1;
+
+            let nextDay = "day" + i;
+            console.log(nextDay);
         } 
         
            
