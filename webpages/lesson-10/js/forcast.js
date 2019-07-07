@@ -25,12 +25,9 @@ forcastRequest.onload = function() {
     let forcastList = forcastData.list;
     console.log(forcastList.length);
 
-    console.log(forcastList[0].dt_txt);
-   /* for (i = 0; i < forcastList.length; i++)
+    for (i = 0; i < forcastList.length; i++)
     {
         let forcastTime = forcastList[i].dt_txt;
-        console.log(forcastTime);
-
-       
-    }*/
+        console.log(forcastTime);       
+    }
 }
