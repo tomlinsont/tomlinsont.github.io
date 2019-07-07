@@ -4,10 +4,10 @@ var dayNames = [ "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday
 const day = new Date();
 console.log(day);
 
-const newDay = day.getDay();
+let newDay = day.getDay();
 console.log(newDay);
 console.log(dayNames[newDay]);
-/*newDay = newDay + 1;*/
+newDay = newDay + 1;
 
 if (newDay === 7){
     newDay = 0;
