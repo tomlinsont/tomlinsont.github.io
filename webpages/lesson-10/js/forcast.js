@@ -7,7 +7,11 @@ console.log(day);
 const newDay = day.getDay();
 console.log(newDay);
 console.log(dayNames[newDay]);
+newDay += 1;
 
+if (newDay === 7){
+    newDay = 0;
+}
 
 
 let forcastRequest = new XMLHttpRequest();
