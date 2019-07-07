@@ -38,11 +38,16 @@ forcastRequest.onload = function() {
             console.log(forcastTime);
             console.log(newDay);
             console.log(dayNames[newDay]);
-            document.getElementById("day" + x).innerHTML = dayNames[newDay];   
+            
+            document.getElementById("day" + x).innerHTML = dayNames[newDay]; 
+            document.getElementById("day" + x + "conditions").innerHTML = forcastList[i].weather.description;
+            
             x += 1;
+            
             if (x === 6) {
                 x = 1;
             }  
+            
             newDay += 1;       
         }
         
