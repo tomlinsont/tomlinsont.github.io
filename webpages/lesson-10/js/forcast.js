@@ -33,10 +33,10 @@ forcastRequest.onload = function() {
     {
         let forcastTime = forcastList[i].dt_txt;
         if (forcastTime.match(/18:00:00/gi))
-        {
-           
+        {           
             console.log(forcastTime);
             console.log(newDay);
+            document.getElementById(day(newDay)).innerHTML = dayNames[newDay];
             newDay += 1;
         }       
     }
