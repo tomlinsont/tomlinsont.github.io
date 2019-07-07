@@ -38,9 +38,9 @@ forcastRequest.onload = function() {
             console.log(forcastTime);
             console.log(newDay);
             console.log(dayNames[newDay]);
-            newDay += 1;
             document.getElementById("day" + x).innerHTML = dayNames[newDay];   
-            x += 1;         
+            x += 1;  
+            newDay += 1;       
         }
         
            
