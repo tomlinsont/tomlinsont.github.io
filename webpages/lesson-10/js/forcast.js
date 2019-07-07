@@ -39,10 +39,10 @@ forcastRequest.onload = function() {
             console.log(dayNames[newDay]);
             newDay += 1;
 
-            let x = 1;
-            let nextDay = "day" + x;
             console.log(nextDay);
-        } 
+            document.getElementById("day" + newDay) = dayNames[newDay];
+
+        }
         
            
     }
