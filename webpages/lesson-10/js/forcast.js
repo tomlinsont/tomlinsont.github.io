@@ -47,7 +47,7 @@ forcastRequest.onload = function() {
            
             const iconcode = forcastList[i].weather[0].icon;
             const icon_path = "//openweathermap.org/img/wn/" + iconcode + ".png";
-            document.getElementById("day" + x + "icon").innerHTML = icon_path;
+            document.getElementById("day" + x + "icon").src = icon_path;
             
             document.getElementById("day" + x + "temp").innerHTML = forcastList[i].main.temp;
             
