@@ -40,7 +40,7 @@ forcastRequest.onload = function() {
             console.log(dayNames[newDay]);
             
             document.getElementById("day" + x).innerHTML = dayNames[newDay]; 
-            document.getElementById("day" + x + "conditions").innerHTML = forcastList[i].weather.description;
+            document.getElementById("day" + x + "conditions").innerHTML = forcastList[i].weather[0].description;
             
             x += 1;
             
