@@ -36,7 +36,7 @@ forcastRequest.onload = function() {
         {           
             console.log(forcastTime);
             console.log(newDay);
-            document.getElementById(day(newDay)).innerHTML = dayNames[newDay];
+            console.log(dayNames[newDay]);
             newDay += 1;
         }       
     }
