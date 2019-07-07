@@ -38,6 +38,8 @@ forcastRequest.onload = function() {
             console.log(forcastTime);
             console.log(newDay);
             console.log(dayNames[newDay]);
+            console.log(forcastList[i].weather[0].description);
+            console.log(forcastList[i].main.temp);
             
             document.getElementById("day" + x).innerHTML = dayNames[newDay]; 
             
