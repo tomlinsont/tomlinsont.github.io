@@ -28,7 +28,7 @@ forcastRequest.onload = function() {
 
     let forcastList = forcastData.list;
     console.log(forcastList.length);
-    console.log(dayNames[newDay]);
+    
     for (i = 0; i < forcastList.length; i++)
     {
         let forcastTime = forcastList[i].dt_txt;
@@ -36,7 +36,7 @@ forcastRequest.onload = function() {
         {           
             console.log(forcastTime);
             console.log(newDay);
-            
+            console.log(dayNames[newDay]);
             newDay += 1;
         }       
     }
