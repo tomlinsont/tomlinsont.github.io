@@ -34,9 +34,7 @@ forcastRequest.onload = function() {
             {
                 newDay = 0;
             }
-            else {
-                newDay += 1;
-            }
+            
 
             console.log(forcastTime);
             console.log(newDay);
