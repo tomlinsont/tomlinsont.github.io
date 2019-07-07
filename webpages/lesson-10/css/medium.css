@@ -69,7 +69,8 @@
         padding-bottom: .5rem;
     }
     main .forcastdata {
-    display: contents;
+        display: contents;
+        text-align: center;
     }
 
     div.row section:nth-child(1) {
