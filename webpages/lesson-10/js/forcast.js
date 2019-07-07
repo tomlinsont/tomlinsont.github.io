@@ -1,5 +1,5 @@
 // Array for the days of the week.
-let dayNames = [ "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" ];
+/*let dayNames = [ "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" ];*/
 
 const day = new Date();
 console.log(day);
