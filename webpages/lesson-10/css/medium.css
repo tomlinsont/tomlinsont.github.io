@@ -71,7 +71,7 @@
     main .forcastdata {
         display: contents;
         text-align: center;
-        background-image: radial-gradient(center, ellipse cover, rgba(173,217,228,1) 30%, rgba(217,237,242,1) 60%, rgba(247,251,252,1) 10%);
+        background-image: radial-gradient(ellipse, center, rgba(173,217,228,1) 60%, rgba(217,237,242,1) 30%, rgba(247,251,252,1) 10%);
     }
     main .forcastdata th {
         font-size: 1rem;
