@@ -38,6 +38,8 @@ forcastRequest.onload = function() {
             console.log(newDay);
             console.log(dayNames[newDay]);
             newDay += 1;
-        }       
+        } 
+        
+        document.getElementById("\"day\"+newDay").innerHTML = dayNames[newDay];      
     }
 }
