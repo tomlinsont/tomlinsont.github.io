@@ -40,8 +40,7 @@ forcastRequest.onload = function() {
             console.log(dayNames[newDay]);
             console.log(forcastList[i].weather[0].description);
             console.log(forcastList[i].main.temp);
-            console.log(iconcode);
-            
+                        
             document.getElementById("day" + x).innerHTML = dayNames[newDay]; 
             
             document.getElementById("day" + x + "conditions").innerHTML = forcastList[i].weather[0].description;
@@ -49,7 +48,7 @@ forcastRequest.onload = function() {
             const iconcode = forcastList[i].weather[0].icon;
             const icon_path = "//openweathermap.org/img/wn/" + iconcode + ".png";
             document.getElementById("day" + x + "icon").src = icon_path;
-            
+            console.log(iconcode);
             document.getElementById("day" + x + "temp").innerHTML = forcastList[i].main.temp;
             
             x += 1;
