@@ -40,6 +40,6 @@ forcastRequest.onload = function() {
             newDay += 1;
         } 
         
-        document.getElementById("'day'+newDay").innerHTML = dayNames[newDay];      
+           
     }
 }
