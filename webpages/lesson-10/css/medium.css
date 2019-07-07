@@ -75,6 +75,9 @@
     main .forcastdata th, td {
         font-size: 1rem;
     }
+    main .forcastdata .weathericon {
+        margin: 0;
+    }
     
     div.row section:nth-child(1) {
         width: 50%;
