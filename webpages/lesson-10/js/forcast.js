@@ -41,9 +41,7 @@ forcastRequest.onload = function() {
 
             console.log(nextDay);
             day = "day" + newDay;
-            document.getElementById("day") = 
-            "New Day";
-
+           console.log(day);
         }
         
            
