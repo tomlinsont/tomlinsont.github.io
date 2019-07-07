@@ -31,15 +31,22 @@ forcastRequest.onload = function() {
     
     for (i = 0; i < forcastList.length; i++)
     {
+        x = 1;
         let forcastTime = forcastList[i].dt_txt;
         if (forcastTime.match(/18:00:00/gi))
         {           
             console.log(forcastTime);
             console.log(newDay);
             console.log(dayNames[newDay]);
-            newDay += 1;            
+            newDay += 1;
+            document.getElementById("day" + "x").innerHTML = dayNames[newDay];   
+            x += 1;         
         }
         
            
     }
+}
+
+function showForcast() {
+
 }
