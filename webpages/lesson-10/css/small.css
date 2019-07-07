@@ -90,6 +90,7 @@ nav ul.hide {
 main {
     padding: .5rem 2%;
     min-height: 10rem;
+    background-color: #f7f4f4;
 }
 main div.weatherinfo {
     width: 100%;
