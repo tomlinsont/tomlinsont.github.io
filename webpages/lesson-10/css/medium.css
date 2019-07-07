@@ -72,8 +72,11 @@
         display: contents;
         text-align: center;
     }
-    main .forcastdata th, td {
+    main .forcastdata th {
         font-size: 1rem;
+    }
+    main .forcastdata td {
+        font-size: .75rem;
     }
     main .forcastdata .weathericon {
         margin: 0;
