@@ -32,6 +32,9 @@ forcastRequest.onload = function() {
         {
             if (newDay === 6)
             {
+                newDay = 0;
+            }
+            else {
                 newDay += 1;
             }
 
