@@ -40,7 +40,8 @@ forcastRequest.onload = function() {
             newDay += 1;
 
             console.log(nextDay);
-            document.getElementById("day" + newDay) = 
+            day = "day" + newDay;
+            document.getElementById("day") = 
             "New Day";
 
         }
