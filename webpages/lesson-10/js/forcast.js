@@ -28,6 +28,9 @@ forcastRequest.onload = function() {
     for (i = 0; i < forcastList.length; i++)
     {
         let forcastTime = forcastList[i].dt_txt;
-        console.log(forcastTime);       
+        if (forcastTime.match(/18:00:00/gi))
+        {
+            console.log(forcastTime);
+        }       
     }
 }
