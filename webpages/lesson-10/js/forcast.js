@@ -41,6 +41,10 @@ forcastRequest.onload = function() {
             
             document.getElementById("day" + x).innerHTML = dayNames[newDay]; 
             document.getElementById("day" + x + "conditions").innerHTML = forcastList[i].weather[0].description;
+            const iconcode = forcastList[i].weather[0].icon;
+            const icon_path = "//openweathermap.org/img/wn/" + iconcode + ".png";
+            document.getElementById("day" + x + "icon").innerHTML = icon_path;
+            document.getElementById("day" + x + "conditions").innerHTML = forcastList[i].main.temp;
             
             x += 1;
             
