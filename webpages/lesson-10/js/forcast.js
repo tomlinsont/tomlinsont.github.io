@@ -6,7 +6,7 @@ console.log(day);
 
 let newDay = day.getDay();
 console.log(newDay);
-console.log(weekKays[newDay]);
+console.log(weekDays[newDay]);
 newDay = newDay + 1;
 
 if (newDay === 7){
