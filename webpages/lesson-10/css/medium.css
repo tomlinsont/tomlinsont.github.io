@@ -75,7 +75,6 @@
     main .forcastdata table {
         background-color: rgb(36, 131, 155);
         background-image: radial-gradient(rgb(36, 131, 155), rgb(178, 226, 238), rgb(247, 244, 244));
-     /*   background-image: radial-gradient(ellipse, center, rgb(36, 131, 155) 60%, rgba(217,237,242,1) 30%, rgb(242, 247, 248) 10%);*/
     }
     main .forcastdata th {
         font-size: 1rem;
