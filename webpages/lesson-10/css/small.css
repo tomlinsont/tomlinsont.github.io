@@ -144,9 +144,9 @@ main section table {
     margin-top: 0;
     margin-bottom: 4rem;    
 }
-main section table {
+main section table, th {
     border: 1px solid black;  
-   /* border-collapse: collapse;*/
+    border-collapse: collapse;
     padding: .5rem .5rem;
 }
 main .forcastdata {
@@ -210,7 +210,7 @@ div section.thirdtown {
     background-color: #d3c9c9;
 }
  
-#preston, #soda, # {
+#frank, #green, #spring {
     background-image: linear-gradient(to bottom, #e2e2e2, #fefefe);
     margin: 0% 3% 3% 3%;;
     border: 1px inset #7c7171;
@@ -218,17 +218,17 @@ div section.thirdtown {
     text-align: center;
     font-size: 1rem;
 }
-#soda h2, i, p {
+#frank h2, i, p {
     display: block;
     margin: 0;
     padding: 2% 0;
 }
-#haven h2, i, p {
+#green h2, i, p {
     display: block;
     margin: 0;
     padding: 2% 0;
 }
-#preston h2, i, p {
+#spring h2, i, p {
     display: block;
     margin: 0;
     padding: 2% 0;
