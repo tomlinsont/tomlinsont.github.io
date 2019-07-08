@@ -1,12 +1,12 @@
 // Array for the days of the week.
-var dayNames = [ "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" ];
+var weekDays = [ "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" ];
 
 const day = new Date();
 console.log(day);
 
 let newDay = day.getDay();
 console.log(newDay);
-console.log(dayNames[newDay]);
+console.log(weekKays[newDay]);
 newDay = newDay + 1;
 
 if (newDay === 7){
@@ -41,7 +41,7 @@ forcastRequest.onload = function() {
             console.log(forcastList[i].weather[0].description);
             console.log(forcastList[i].main.temp);
                         
-            document.getElementById("day" + x).innerHTML = dayNames[newDay]; 
+            document.getElementById("day" + x).innerHTML = weekDays[newDay]; 
             
             document.getElementById("day" + x + "conditions").innerHTML = forcastList[i].weather[0].description;
            
