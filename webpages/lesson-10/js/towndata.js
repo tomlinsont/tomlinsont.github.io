@@ -12,7 +12,7 @@ onload = function() {
     myRequestData = JSON.parse(myRequestObj.responseText);    
     console.log(myRequestData);
 
-    document.getElementById("preston").innerHTML = completeTownData(0);
+    document.getElementById("preston").innerHTML = completeTownData(4);
     document.getElementById("green").innerHTML = completeTownData(2);
     document.getElementById("spring").innerHTML = completeTownData(6);
 }
