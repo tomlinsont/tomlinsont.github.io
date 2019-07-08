@@ -210,7 +210,7 @@ div section.thirdtown {
     background-color: #d3c9c9;
 }
  
-#preston, #sodasprings, # {
+#preston, #soda, # {
     background-image: linear-gradient(to bottom, #e2e2e2, #fefefe);
     margin: 0% 3% 3% 3%;;
     border: 1px inset #7c7171;
@@ -218,17 +218,17 @@ div section.thirdtown {
     text-align: center;
     font-size: 1rem;
 }
-#sodasprings h2, i, p {
+#soda h2, i, p {
     display: block;
     margin: 0;
     padding: 2% 0;
 }
-#fish haven h2, i, p {
+#haven h2, i, p {
     display: block;
     margin: 0;
     padding: 2% 0;
 }
-#spring h2, i, p {
+#preston h2, i, p {
     display: block;
     margin: 0;
     padding: 2% 0;
