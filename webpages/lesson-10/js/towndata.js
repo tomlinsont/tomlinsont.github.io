@@ -24,7 +24,7 @@ function completeTownData(x) {
     townInfo += "<i>" + myRequestData.towns[x].motto + "</i>";
     townInfo += "<p>" + "Year Founded: " + myRequestData.towns[x].yearFounded + "</p>";
     townInfo += "<p>" + "Population: " + myRequestData.towns[x].currentPopulation + "</p>";
-    townInfo += "<p>" + "Annual Rainfall: " + myRequestData.towns[x].averageRainfall + "\"</p>";
+    townInfo += "<p>" + "Annual Rainfall: " + myRequestData.towns[x].averageRainfall + "</p>";
 
     return townInfo;
 }
