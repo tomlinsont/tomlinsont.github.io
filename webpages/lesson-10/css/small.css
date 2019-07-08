@@ -234,6 +234,9 @@ div section.thirdtown {
     padding: 2% 0;
 }
 
+.events{
+    border: 1px solid black;
+}
 /***************** Form **********************/
 section.weatherform {
     width: 100%;
