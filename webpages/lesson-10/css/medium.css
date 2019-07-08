@@ -100,7 +100,7 @@
 
     div.townInformation {
         width: 100%;
-       /* border: 1px solid black;*/
+        border: 1px solid black;
         display: flex;
         flex-flow: row;
         justify-content: space-between;
