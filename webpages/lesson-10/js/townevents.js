@@ -24,7 +24,7 @@ eventsRequestObj.onload = function() {
 
     let activitiesList2 =  townEvents.towns[1].events;
     console.log(activitiesList2.length);
-    let eventString = "<h3>" + townList[1].name + "</h3><br />";
+    eventString = "<h3>" + townList[1].name + "</h3><br />";
 
     for (var i = 0; i < activitiesList2.length; i++) {
         eventString += "<p>" + townList[1].events[i] + "</p>";
