@@ -10,13 +10,13 @@ eventsRequestObj.onload = function() {
     let townEvents = JSON.parse(eventsRequestObj.responseText);
     console.log(townEvents);
 
-    let eventsList = townEvents.towns;
+    let townList = townEvents.towns;
 
     let activitiesList =  townEvents.towns[4].events;
 
-    let eventString = "<h3>" + eventsList[4].name + "</h3><br />";
+    let eventString = "<h3>" + townList[4].name + "</h3><br />";
     for (var i = 0; i <= activitiesList.length; i++) {
-        eventString += "<p>" + eventsList[4].events[i] + "</p>";
+        eventString += "<p>" + townList[4].events[i] + "</p>";
     }
     console.log(eventString);
 
