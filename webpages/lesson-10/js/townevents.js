@@ -19,9 +19,9 @@ eventsRequestObj.onload = function() {
         eventString += "<p>" + eventsList[4].events[i] + "</p>";
     }
     console.log(eventString);
-/*
+
     document.getElementById("preston_events").innerHTML = eventString;
-    console.log(eventsList[4].name);
+ /*   console.log(eventsList[4].name);
     console.log(eventsList[4].events);
 
     document.getElementById("fish_haven_events").innerHTML = eventsList[1].name;
