@@ -12,5 +12,7 @@ eventsRequestObj.onload = function() {
 
     let eventsList = townEvents.towns;
     document.getElementById("preston_events").innerHTML = eventsList[4].name;
+    document.getElementById("fish_haven_events").innerHTML = eventsList[1].name;
+    document.getElementById("soda_springs_events").innerHTML = eventsList[5].name;
     console.log(eventsList[4].name);
 }
