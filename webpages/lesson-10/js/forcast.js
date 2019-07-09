@@ -53,11 +53,15 @@ forcastRequest.onload = function() {
             
             x += 1;
             
-            if (x === 6) {
-                x = 1;
+            if (x === 7) {
+                x = 0;
             }  
             
-            newDay += 1;       
+            newDay += 1;
+            
+            if (newDay === 7) {
+                newDay = 0;
+            }
         }
         
            
