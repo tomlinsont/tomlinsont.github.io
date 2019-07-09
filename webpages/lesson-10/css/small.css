@@ -144,9 +144,9 @@ main section table {
     margin-top: 0;
     margin-bottom: 4rem;    
 }
-main section table tr {
+main section table tr td{
     border: 1px solid black;  
-    border-collapse: collapse;
+  //  border-collapse: collapse;
     padding: .5rem .5rem;
     width: 20%;
 }
