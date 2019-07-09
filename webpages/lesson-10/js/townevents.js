@@ -11,7 +11,7 @@ eventsRequestObj.onload = function() {
     console.log(townEvents);
 
     let eventsList = townEvents.towns;
-    document.getElementById("preston_events").innerHTML = eventsList[4].name;
+    document.getElementById("preston_events").innerHTML = "<h4>" + eventsList[4].name + "</h4><br />";
     document.getElementById("preston_events").innerHTML = eventsList[4].events;
     console.log(eventsList[4].name);
     console.log(eventsList[4].events);
