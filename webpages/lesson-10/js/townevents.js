@@ -11,12 +11,15 @@ eventsRequestObj.onload = function() {
     console.log(townEvents);
 
     let eventsList = townEvents.towns;
+    let activities = eventsList.events;
+    console.log(activities);
 
     let eventString = "<h3>" + eventsList[4].name + "</h3><br />";
     for (var i = 0; i <= eventsList[4].events.listlength; i++) {
         eventString += "<p>" + eventsList[4].events[i] + "</p>";
     }
-
+    console.log(eventString);
+/*
     document.getElementById("preston_events").innerHTML = eventString;
     console.log(eventsList[4].name);
     console.log(eventsList[4].events);
@@ -29,5 +32,5 @@ eventsRequestObj.onload = function() {
     document.getElementById("soda_springs_events").innerHTML = eventsList[5].name;
     document.getElementById("soda_springs_events").innerHTML = eventsList[5].events;
     console.log(eventsList[5].name);
-    console.log(eventsList[5].events);
+    console.log(eventsList[5].events);*/
 }
