@@ -15,4 +15,6 @@ eventsRequestObj.onload = function() {
     document.getElementById("fish_haven_events").innerHTML = eventsList[1].name;
     document.getElementById("soda_springs_events").innerHTML = eventsList[5].name;
     console.log(eventsList[4].name);
+    console.log(eventsList[1].name);
+    console.log(eventsList[5].name);
 }
