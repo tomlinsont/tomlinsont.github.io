@@ -246,6 +246,9 @@ div section.thirdtown {
     border: 1px solid black;
     width: 100%;
 }
+.events div {
+    width: 33%;
+}
 
 /***************** Form **********************/
 section.weatherform {
