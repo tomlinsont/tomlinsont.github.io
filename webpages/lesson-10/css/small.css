@@ -145,7 +145,7 @@ main section table {
     margin-bottom: 4rem;
     border: 1px solid black;    
 }
-main section table tr{
+main section table tr td {
     border-collapse: collapse;
     padding: .5rem .5rem;
     vertical-align: center;
