@@ -11,11 +11,11 @@ eventsRequestObj.onload = function() {
     console.log(townEvents);
 
     let eventsList = townEvents.towns;
-    let activities = eventsList.events;
-    console.log(activities);
+
+    let activitiesList =  townEvents.towns[4].events;
 
     let eventString = "<h3>" + eventsList[4].name + "</h3><br />";
-    for (var i = 0; i <= eventsList[4].events.listlength; i++) {
+    for (var i = 0; i <= activitiesList.length; i++) {
         eventString += "<p>" + eventsList[4].events[i] + "</p>";
     }
     console.log(eventString);
