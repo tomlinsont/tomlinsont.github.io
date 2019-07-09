@@ -19,5 +19,5 @@ eventsRequestObj.onload = function() {
     console.log(eventsList[1].name);
     console.log(eventsList[1].events);
     console.log(eventsList[5].name);
-    console.log(eventsList[1].events);
+    console.log(eventsList[5].events);
 }
