@@ -247,12 +247,19 @@ div section.thirdtown {
     width: 100%;
 }
 .events div {
-    width: 30%;
+    width: 27%;
     border: 1px solid black;
     float: left;
-    margin: 2% 2%;
 }
+.prestonevents {
 
+}
+.fhevents {
+
+}
+.ssevents {
+
+}
 /***************** Form **********************/
 section.weatherform {
     width: 100%;
