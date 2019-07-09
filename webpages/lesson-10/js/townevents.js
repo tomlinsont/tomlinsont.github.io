@@ -12,7 +12,7 @@ eventsRequestObj.onload = function() {
 
     let eventsList = townEvents.towns;
 
-    let eventString = "<h4>" + eventsList[4].name + "</h4><br />";
+    let eventString = "<h3>" + eventsList[4].name + "</h3><br />";
     eventString += "<p>" + eventsList[4].events + "</p>";
 
     document.getElementById("preston_events").innerHTML = eventString;
