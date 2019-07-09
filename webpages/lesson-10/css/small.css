@@ -148,7 +148,7 @@ main section table {
 main section table tr{
     border-collapse: collapse;
     padding: .5rem .5rem;
-    width: 20%;
+    vertical-align: center;
 }
 main .forcastdata {
     display: none;
