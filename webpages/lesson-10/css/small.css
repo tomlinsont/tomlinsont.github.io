@@ -145,7 +145,7 @@ main section table {
     margin-bottom: 4rem;
     border: 1px solid black;    
 }
-main section table tr.row {
+main section table tr.row td {
     width: 20%;
 }
 main section table, tr, td {
