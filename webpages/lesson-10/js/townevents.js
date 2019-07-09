@@ -12,6 +12,7 @@ eventsRequestObj.onload = function() {
 
     let townList = townEvents.towns;
 
+    // Events for Preston
     let activitiesList =  townEvents.towns[4].events;
     console.log(activitiesList.length);
     let eventString = "<h3>" + townList[4].name + "</h3><br />";
@@ -22,6 +23,7 @@ eventsRequestObj.onload = function() {
     console.log(eventString);
     document.getElementById("preston_events").innerHTML = eventString;
 
+    // Events for Fish Haven
     activitiesList =  townEvents.towns[1].events;
     console.log(activitiesList.length);
     eventString = "<h3>" + townList[1].name + "</h3><br />";
@@ -32,6 +34,7 @@ eventsRequestObj.onload = function() {
     console.log(eventString);
     document.getElementById("fish_haven_events").innerHTML = eventString;
 
+    // Events for Soda Springs
     activitiesList =  townEvents.towns[5].events;
     console.log(activitiesList.length);
     eventString = "<h3>" + townList[5].name + "</h3><br />";
@@ -41,17 +44,4 @@ eventsRequestObj.onload = function() {
     }
     console.log(eventString);
     document.getElementById("soda_springs_events").innerHTML = eventString;
-
- /*   console.log(eventsList[4].name);
-    console.log(eventsList[4].events);
-
-    document.getElementById("fish_haven_events").innerHTML = eventsList[1].name;
-    document.getElementById("fish_haven_events").innerHTML = eventsList[1].events;
-    console.log(eventsList[1].name);
-    console.log(eventsList[1].events);
-
-    document.getElementById("soda_springs_events").innerHTML = eventsList[5].name;
-    document.getElementById("soda_springs_events").innerHTML = eventsList[5].events;
-    console.log(eventsList[5].name);
-    console.log(eventsList[5].events);*/
 }
