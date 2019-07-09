@@ -8,6 +8,9 @@ eventsRequestObj.send();
 
 eventsRequestObj.onload = function() {
     let townEvents = JSON.parse(eventsRequestObj.responseText);
-
     console.log(townEvents);
+
+    let eventsList = townEvents.towns;
+    document.getElementById("preston_events").innerHTML = eventsList[4].name;
+    console.log(eventsList[4].name);
 }
