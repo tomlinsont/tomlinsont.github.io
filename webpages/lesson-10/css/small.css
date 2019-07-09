@@ -250,6 +250,7 @@ div section.thirdtown {
     width: 33%;
     border: 1px solid black;
     float: left;
+    margin: 0 auto;
 }
 
 /***************** Form **********************/
