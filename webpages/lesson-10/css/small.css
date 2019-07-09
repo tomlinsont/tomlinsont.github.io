@@ -238,6 +238,9 @@ div section.thirdtown {
     border: 1px solid black;
     width: 100%;
 }
+#preston_events, #fish_haven_events, #soda_springs_events {
+    border: 1px solid black;
+}
 /***************** Form **********************/
 section.weatherform {
     width: 100%;
