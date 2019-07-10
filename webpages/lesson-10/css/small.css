@@ -345,7 +345,9 @@ div.bottomrow {
     font-size: .75rem;
     padding: .2rem 0;
 }
-
+div.bottomrow a:link {
+    color: #f2eaea;
+}
 
 
 /*----- Clearfix: Force an Element not to collapse -----*/
