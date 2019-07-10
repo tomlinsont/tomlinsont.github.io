@@ -252,8 +252,9 @@ div section.thirdtown {
     float: left;
     margin-left: 4.5%;
 }
-.prestonevents {
 
+.prestonevents {
+    text-align: center;
 }
 .fhevents {
 
