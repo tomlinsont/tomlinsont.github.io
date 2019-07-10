@@ -264,6 +264,7 @@ div section.thirdtown {
 }
 .prestonevents p, .fhevents p, .ssevents p {
     font-size: 1rem;
+    padding: 2%;
 }
 
 /***************** Form **********************/
