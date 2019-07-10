@@ -257,6 +257,9 @@ div section.thirdtown {
     text-align: center;
     padding: 2%;
 }
+.prestonevents p, .fhevents p, .ssevents p {
+    font-size: .75rem;
+}
 
 /***************** Form **********************/
 section.weatherform {
