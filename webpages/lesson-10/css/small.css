@@ -250,9 +250,9 @@ div section.thirdtown {
    margin-bottom: 2%;
 }
 .events div {
-    width: 28%;
+    width: 100%;
     border: 1px solid black;
-    float: left;
+    /*float: left;*/
     margin-left: 4.5%;
     padding: 2% 0;
     background-color: rgb(178, 226, 238);
