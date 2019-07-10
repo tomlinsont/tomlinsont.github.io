@@ -251,6 +251,7 @@ div section.thirdtown {
     border: 1px solid black;
     float: left;
     margin-left: 4.5%;
+    padding: 2% 0;
 }
 
 .prestonevents, .fhevents, .ssevents {
