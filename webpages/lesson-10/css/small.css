@@ -253,15 +253,10 @@ div section.thirdtown {
     margin-left: 4.5%;
 }
 
-.prestonevents h3{
+.prestonevents, .fhevents, .ssevents {
     text-align: center;
 }
-.fhevents {
 
-}
-.ssevents {
-
-}
 /***************** Form **********************/
 section.weatherform {
     width: 100%;
