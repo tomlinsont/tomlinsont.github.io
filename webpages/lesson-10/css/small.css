@@ -345,7 +345,7 @@ div.bottomrow {
     font-size: .75rem;
     padding: .2rem 0;
 }
-div.bottomrow a:link {
+div.bottomrow a {
     color: #f2eaea;
 }
 
