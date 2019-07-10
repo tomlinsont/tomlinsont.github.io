@@ -255,6 +255,7 @@ div section.thirdtown {
 
 .prestonevents, .fhevents, .ssevents {
     text-align: center;
+    padding: 2%;
 }
 
 /***************** Form **********************/
