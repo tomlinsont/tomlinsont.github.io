@@ -24,6 +24,9 @@ else if  ( city == "Soda Springs") {
 else if ( city == "Fish Haven") {
     cityID = 5585010;
 }
+else {
+    cityID = 5604473;
+}
 
 
 console.log(city);
