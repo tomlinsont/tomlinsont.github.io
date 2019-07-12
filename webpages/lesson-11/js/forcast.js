@@ -15,10 +15,13 @@ if (newDay === 7){
 
 var city = document.getElementById("city").innerHTML;
 
+if ( city == "Preston") {
+    var cityID = 5604473;
+}
 
 
 console.log(city);
-//console.log(cityID);
+console.log(cityID);
 
 let forcastRequest = new XMLHttpRequest();
 
