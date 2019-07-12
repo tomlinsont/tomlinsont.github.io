@@ -13,7 +13,7 @@ if (newDay === 7){
     newDay = 0;
 }
 
-var city = document.getElementById("city").value;
+var city = document.getElementById("city").innerHTML;
 
 
 
