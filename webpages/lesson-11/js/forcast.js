@@ -12,7 +12,7 @@ newDay = newDay + 1;
 if (newDay === 7){
     newDay = 0;
 }
- let city = document.getElementById("city").innerHTML;
+ let city = document.getElementById("city").value;
 console.log(city);
 
 let forcastRequest = new XMLHttpRequest();
