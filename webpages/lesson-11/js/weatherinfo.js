@@ -1,6 +1,21 @@
 let weatherRequest = new XMLHttpRequest();
 
-var apiURLstring = '//api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=dd11f546924470c26cb3acba8d198320';
+var city = document.getElementById("city").innerHTML;
+
+if ( city == "Preston") {
+    var cityID = 5604473;
+}
+else if  ( city == "Soda Springs") {
+    cityID = 5607916;
+}
+else if ( city == "Fish Haven") {
+    cityID = 5585010;
+}
+else {
+    cityID = 5604473;
+}
+
+var apiURLstring = "//api.openweathermap.org/data/2.5/weather?id=" + cityID + "&units=imperial&appid=dd11f546924470c26cb3acba8d198320";
 
 weatherRequest.open('GET', apiURLstring, true);
 
