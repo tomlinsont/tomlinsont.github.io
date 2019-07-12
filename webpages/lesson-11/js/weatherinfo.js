@@ -14,8 +14,12 @@ else if ( city == "Fish Haven") {
 else {
     cityID = 5604473;
 }
+ console.log(city);
+ console.log(cityID);
 
 var apiURLstring = "//api.openweathermap.org/data/2.5/weather?id=" + cityID + "&units=imperial&appid=dd11f546924470c26cb3acba8d198320";
+
+console.log(apiURLstring);
 
 weatherRequest.open('GET', apiURLstring, true);
 
