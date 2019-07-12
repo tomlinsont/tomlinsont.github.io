@@ -13,7 +13,7 @@ if (newDay === 7){
     newDay = 0;
 }
 
-let city = document.getElementById("city").value;
+const city = document.getElementById("city").value;
 
 
 
