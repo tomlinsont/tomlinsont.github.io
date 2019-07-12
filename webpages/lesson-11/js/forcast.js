@@ -12,7 +12,8 @@ newDay = newDay + 1;
 if (newDay === 7){
     newDay = 0;
 }
-
+ let city = myRequestData.towns[x].name;
+console.log(city);
 
 let forcastRequest = new XMLHttpRequest();
 
