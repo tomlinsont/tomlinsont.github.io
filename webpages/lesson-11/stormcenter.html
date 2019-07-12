@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Fill Me In">
+<meta name="author" content="John Doe">
+
+<!-- This start file was build by Paul Cheney  -->
+<title>Storm Center: SEIW</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!---  LINK TO GOOGLE FONTS  -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Spectral+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+
+
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+    
+     
+</head>
+<body>
+<!-- HEADER HERE -->
+	<header class="clearfix">
+        <img src="images/logo4.png" alt="logo">
+        <div>
+            <h1>Southeast Idaho Weather</h1>
+            <h2>Your All-Weather Solution</h2>
+        </div>
+    </header>
+    
+    
+<!-- NAVIGATION HERE -->
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li class="active"><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    
+    
+<!-- CONTENT HERE -->
+    <main class="clearfix">
+        <h1>Storm Center</h1>
+        <div class="weatherinfo">
+          <!--  <figure class="weatherinfo">-->
+                <img src="images/cit230_image_franklinOriginal.jpg" alt="storm clouds" sizes="100vw" srcset="images/cit230_image_franklinOriginal400.jpg 400w,
+                        images/cit230_image_franklinOriginal600.jpg 600w,
+                        images/cit230_image_franklinOriginal800.jpg 800w,  images/cit230_image_franklinOriginal1028.jpg 1028w">
+         <!--   </figure>-->
+         <section class="weatherstat">
+            <h3>Conditions</h3>
+            <p id="weatherdescription">Partly Cloudy</p>
+            <div class="weathericon"><img id="weather_icon" src="images/placeholder.png" alt="current weather"></div>
+            <p>High:&nbsp; <span id="hightemp">59</span>&deg;</p>
+            <p>Wind Chill:&nbsp; <span id="showWindChill"></span>&deg;"F"</p>
+            <p>Humidity:&nbsp; <span id="humidity">36</span>&deg;</p>
+            <p>Wind Speed:&nbsp; <span id="wind">36</span></p> 
+        </section>
+        </div>
+        <section class="weatherform">
+            <h2>Share Your Local Weather With Us</h2>
+            <form method="get" action="thanks.html">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label class="userInfo">Full Name*<input type="text" name="fullname" required pattern="[/A-Z|a-z/\s]{5,}"></label>
+                    <label class="userInfo">Email<input type="email" name="email" placeholder="name@email.com"></label>
+                    <label class="userInfo">Phone Number* <input type="tel" name="phone" placeholder="1236547896" required></label>
+                    <label class="userInfo">Zip Code*<input type="number" name="zip" required></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Storm Data</legend>
+                    <label class="stormInfo">Storm Date<input type="date" name="stormdate"></label>
+                    <label class="stormInfo">Storm Type
+                        <input list="stormtypes">
+                        <datalist id="stormtypes">
+                            <option value="flashflood">
+                            <option value="hail">
+                            <option value="hurricane">
+                            <option value="thunderstorm">
+                            <option value="tornado"> 
+                        </datalist>
+                    </label>
+                    <label class="stormInfo">Storm Severity (1 to 10)<input type="range" name="stormseverity" min="1" max="10"></label>
+                    <label class="stormInfo">Storm Region
+                        <select name="region">
+                            <option value="">Please Select&#9662;</option>
+                            <option value="fishhaven">Fish Haven</option>
+                            <option value="preston">Preston</option>
+                            <option value="sugarcity">Sugar City</option>
+                        </select>
+                    </label>
+                    <div>Are you in danger?</div>
+                    <label class="safe"><input type="radio" name="danger" value="yes">Yes</label>
+                    <label class="safe"><input type="radio" name="danger" value="maybe">Maybe</label>
+                    <label class="safe"><input type="radio" name="danger" value="no">No</label>
+                    
+                    <label class="stormInfo addInfo"><textarea name="message" rows="10" cols="40" placeholder="Additional Information"></textarea></label>
+                </fieldset>
+                
+                <input type="submit" value="Report My Current Weather" class="submitBtn">
+            </form>            
+        </section>
+        
+    </main>
+
+    
+        
+<!-- FOOTER HERE -->   
+    <footer  class="clearfix">
+        <div class="row">
+            <section>
+                <strong>Address:</strong><br>
+                SouthEast Idaho Weather<br>
+                100 N 100 S<br>
+                Preston, ID 83263
+            </section>
+            <section>
+                <strong>Phone:</strong><br>(123)456-7890<br>
+                <strong>Email:</strong><br>seiw@email.com<br>
+            </section>
+        </div>
+        <div class="bottomrow">
+            &copy; 2019 &bull; Tim Tomlinson &bull; <span id="outputdiv"></span>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/weatherinfo.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/currentdate.js"></script>
+ 
+</body>
+</html>
