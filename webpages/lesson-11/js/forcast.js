@@ -18,7 +18,7 @@ let city = document.getElementById("city").value;
 
 
 console.log(city);
-console.log(cityID);
+//console.log(cityID);
 
 let forcastRequest = new XMLHttpRequest();
 
