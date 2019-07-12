@@ -19,7 +19,7 @@ if ( city == "Preston") {
     var cityID = 5604473;
 }
 else if  ( city == "Soda Springs") {
-    cityID = 5678757;
+    cityID = 5607916;
 }
 else if ( city == "Fish Haven") {
     cityID = 5585010;
