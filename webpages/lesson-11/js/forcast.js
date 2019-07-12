@@ -15,9 +15,7 @@ if (newDay === 7){
 
 let city = document.getElementById("city").value;
 
-if ( city == "Preston"){
-    var cityID = 5604473;
-}
+
 
 console.log(city);
 console.log(cityID);
