@@ -12,8 +12,15 @@ newDay = newDay + 1;
 if (newDay === 7){
     newDay = 0;
 }
- let city = document.getElementById("city").value;
+
+let city = document.getElementById("city").value;
+
+if ( city == "Preston"){
+    let cityID = 5604473;
+}
+
 console.log(city);
+console.log(cityID);
 
 let forcastRequest = new XMLHttpRequest();
 
