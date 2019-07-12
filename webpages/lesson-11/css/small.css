@@ -193,7 +193,7 @@ div.townInformation {
     flex-flow: column;
     justify-content: space-between;
     align-items: center;
-    padding: .5rem 0 .5rem 1rem;
+    padding: .5rem 0 .5rem .75rem;
     max-width: 300px;
 }
 div.townInformation img {
