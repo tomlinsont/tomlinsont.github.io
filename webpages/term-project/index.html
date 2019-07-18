@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="author" content="Tim Tomlinson">
+
+<!-- This start file was build by Paul Cheney  -->
+<title>Home - Temple Inn & Suites</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!---  LINK TO GOOGLE FONTS  -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+    
+     
+</head>
+<body>
+<!-- HEADER HERE -->
+	<header class="clearfix">
+        <img src="images/logo4.png" alt="logo">
+        <div>
+            <h1>Southeast Idaho Weather</h1>
+            <h2>Your All-Weather Solution</h2>
+        </div>
+    </header>
+    
+    
+<!-- NAVIGATION HERE -->
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="sodasprings.html">Soda Springs</a></li>
+            <li><a href="fishhaven.html">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    
+    
+<!-- CONTENT HERE -->
+    <main class="clearfix">
+        
+        <div class="weatherinfo">
+          <!--  <figure class="weatherinfo">-->
+                <img src="images/idaho.jpg" alt="Idaho" sizes="100vw" srcset="images/idaho400.jpg 400w,
+                        images/idaho600.jpg 600w,
+                        images/idaho800.jpg 800w,  images/idaho1028.jpg 1028w">
+         <!--   </figure>-->
+         <section class="weatherstat">
+            <h3>Conditions</h3>
+            <p id="weatherdescription">Partly Cloudy</p>
+            <div class="weathericon"><img id="weather_icon" src="images/placeholder.png" alt="current weather"></div>
+            <p>High:&nbsp; <span id="hightemp">59</span>&deg;</p>
+            <p>Wind Chill:&nbsp; <span id="showWindChill"></span>&deg;"F"</p>
+            <p>Humidity:&nbsp; <span id="humidity">36</span>&deg;</p>
+            <p>Wind Speed:&nbsp; <span id="wind">36</span></p>
+        </section>
+        </div>
+        <div class="townInformation clearfix towns">
+            <section class="firsttown">
+                <img src="images/downtownpreston.jpg" alt="Preston Idaho">
+                <div id="preston"></div>
+            </section>
+            <section class="secondtown">
+                <img src="images/sodasprings_idaho.jpg" alt="SodaSprings Idaho">
+                <div id="soda"></div>
+            </section>
+            <section class="thirdtown">
+                <img src="images/fishhaven_idaho.jpg" alt="Fish Haven Idaho">
+                <div id="haven"></div>
+            </section>
+        </div>
+        
+    </main>
+
+    
+        
+<!-- FOOTER HERE -->   
+    <footer  class="clearfix">
+        <div class="row clearfix">
+            <section>
+                <strong>Address:</strong><br>
+                SouthEast Idaho Weather<br>
+                100 N 100 S<br>
+                Preston, ID 83263
+            </section>
+            <section>
+                <strong>Phone:</strong><br>(123)456-7890<br>
+                <strong>Email:</strong><br>seiw@email.com<br>
+            </section>
+        </div>
+        <div class="bottomrow">
+            &copy; 2019 &nbsp;&bull;&nbsp; Tim Tomlinson &nbsp;&bull;&nbsp; <span id="outputdiv"></span>&nbsp;&bull;&nbsp;<a href="https://openweathermap.org">OpenWeatherMap.org</a>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/weatherinfo.js"></script>
+    <script src="js/towndata.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/currentdate.js"></script>
+ 
+</body>
+</html>
