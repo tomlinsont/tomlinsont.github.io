@@ -6,19 +6,6 @@
     
 
 /*----------- HEADER --------------*/
-    header {
-        grid-template-columns: 100px auto;
-    }
-    header img {
-        width: auto;
-    }
-    header h1 {
-        font-size: 1.6rem; 
-        padding-top: 1rem;
-    }
-    header h2 {
-        font-size: 1.3rem;
-    }
 
 
 /*----------- NAVIGATION --------------*/
@@ -26,8 +13,12 @@
         float: left;
         width: 20%;
     }
-    
-
+    nav .hide {
+        display:  contents;
+    }
+    nav button {
+        display: none;
+    }
 
 /*----------- MAIN --------------*/
     main section.weatherstat {
@@ -40,29 +31,7 @@
     main section.weatherstat h3 {
         font-size: 1rem;
     }
-    main figure.myphoto {
-        width: 48%;
-        float: right;
-        margin-left: 2%;
-        padding-bottom: .5rem;
-    }
-    main .forcastdata {
-        display: contents;
-        text-align: center;
-    }
-    main .forcastdata table {
-        background-color: rgb(178, 226, 238);
-      /*  background-image: radial-gradient(rgb(36, 131, 155), rgb(178, 226, 238), rgb(247, 244, 244));*/
-    }
-    main .forcastdata th {
-        font-size: 1rem;
-    }
-    main .forcastdata td {
-        font-size: .75rem;
-    }
-    main .forcastdata .weathericon {
-        margin: 0;
-    }
+    
     
     div.row section:nth-child(1) {
         width: 50%;
@@ -72,44 +41,33 @@
         width: 50%;
         float: left;
     }
-    div.weathergallery figure {
+   
+/*----------- Temple Activities -----------*/
+    .activities figure {
     flex-basis: 46%;
     }
-
-    div.townInformation {
-        width: 100%;
-        border: 1px solid black;
-        display: flex;
-        flex-flow: row;
-        justify-content: space-between;
-        align-items: stretch;
-        padding-left: .75rem;
-        margin: 0;
-        max-width: 1200px;
-    }
-    div section.firsttown, div section.secondtown, div section.thirdtown {
-        width: 31%;
-        margin: 0;
-        padding: 0;
-    }
-
-    #soda, #haven, #preston {
-        font-size: .75rem;
-    }
-
-    .events div {
-        width: 28%;
-        border: 1px solid black;
-        float: left;
-        margin-left: 1.5rem;
-        background-color: rgb(178, 226, 238);
-    }
-    
     
 /*----------- Form ------------*/
-section.weatherform h2 {
-    font-size: 1.5rem;
-} 
-/*----------- FOOTER --------------*/
+     
     
-} /* end of media query */
+/*----------- FOOTER --------------*/
+    .addressinfo {
+        float: left;
+        font-size: .75rem;
+        width: 33%;
+    }
+    .phoneinfo {
+        float: left;
+        font-size: .75rem;
+        width: 33%;
+    }
+    .showlocation {
+        float: left;
+        font-size: .75rem;
+        width: 33%;
+    }
+    .maplogo {
+        width: 20%;
+    }
+   
+/* end of media query */

@@ -69,6 +69,9 @@ nav a {
 nav a:hover {
     background-color: #444;
 }
+nav .hide{
+    display: none;
+}
 
 /*----------- MAIN --------------*/
 main {
@@ -83,21 +86,72 @@ main h {
 .temple img {
     width: 100%;
 }
-.slide {
-    width: 75%;
+
+/*------------ Temple Attending Activities --------*/
+.activities {
+    display: flex;
+    flex-wrap: wrap;
 }
-.slide img {
+.activities figure {
+    flex-basis: 96%;
+    margin: 1rem 2%;
+}
+figure img {
     width: 100%;
 }
-/*------------- Form ------------------*/
+figure figcaption {
+    font-size: .75rem;
+}
 
+/*------------- Form ------------------*/
+.contactform {
+    width: 100%;
+    padding: 2% 0;
+}
+form fieldset{
+ margin: .5rem;
+}
+fieldset legend{
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+.userinfo, .comments {
+    display: block;
+    font-size: .75rem;
+    margin: 0;
+    padding: .5rem .25rem;
+}
+.userinfo input, .comments input, textarea {
+    display: block;
+    padding: .5rem;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+.submitBtn {
+    margin: .5rem;
+}
+.userinfo input:required {
+    border: 2px inset red;
+}
+.userinfo input:required:valid {
+    border: 2px inset #cec6c6;
+}
+.maps {
+    width: 100%;
+    border: 1px solid black;
+}
+.maps iframe {
+    width: 100%;
+}
 
 
 /*----------- FOOTER --------------*/
 footer {
     background-color: #31397d;
     color: #fff;
-    font-size: .75rem;
+    font-size: .5rem;
 }
 .toprow {
     background-color: #b09c9c;
@@ -109,6 +163,14 @@ footer {
     font-size: .6rem;
     padding: .5rem 2%;
 }
+.maplogo {
+    width: 10%;
+}
+.maplogo img {
+    width: 100%;
+}
+
+
 
 
 /*----- Clearfix: Force an Element not to collapse -----*/

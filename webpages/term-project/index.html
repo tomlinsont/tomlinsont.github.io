@@ -39,12 +39,13 @@
     
 <!-- NAVIGATION HERE -->
     <nav class="clearfix">
-        <ul>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
             <li class="active"><a href="index.html">Home</a></li>
             <li><a href="#">Temple</a></li>
             <li><a href="#">Reservations</a></li>
             <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
     
@@ -57,16 +58,36 @@
                         images/salt-lake-city-temple800.jpg 800w,  images/salt-lake-city-temple1028.jpg 1028w">
             </div>
             
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non lacus odio. Donec fermentum ex in nunc tempus pellentesque. Vestibulum blandit eu mi et consectetur. Integer volutpat mollis orci ut consectetur. Vivamus eu nibh mi. Donec magna tortor, iaculis non rhoncus quis, congue a nibh. Vestibulum suscipit pretium ligula vitae lacinia. Vestibulum neque tellus, pellentesque sed interdum a, pulvinar eu eros. Interdum et malesuada fames ac ante ipsum primis in faucibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse potenti. Nulla at laoreet orci. Nulla pretium sed elit id aliquam. Mauris quis placerat nunc.</p>
+            <p>The Salt Lake Temple is Located in Salt Lake City, Utah.  It is the sixth temple the church has completed, and the largest of them all at 253,015 square feet.  The temple was dedicated in 1893, taking 40 years to complete.  The temple stands, on 10 acres, as a centerpiece of Temple Square.  At the east end of the building, on the center pinnacle, stands a statue of the andel Moroni.</p>
+            <p>The location for the temple was given by Brigham Yound on July 28, 1847, just 4 days after arriving in the Salt Lake Valley.  The temple site was dedicated on February 14, 1853 by Heber C Kimball. And the cornerstone was laid later that year on April 6th.</p>
+            <p>The temple, which is used by Latter-Day Saints, is considered to be the house of God.  Uses for the temple include an endowment ceremony, washing and anointing ceremonies, marriage, and baptismal ceremonies.</p>
+            
         </section>
-        <section class="activites">
-            <h2>Temple Attending Activies</h2>
-            <div class="slide">
-                <img src="images/St.%20George3.jpg">
-            </div>
+        <h2>Temple Attending Activies</h2>
+        <section class="activities clearfix">
+            <figure>
+                <img src="images/St.%20George3.jpg" alt="St. George Temple">
+                <figcaption>St. George, Utah Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/Kona_Hawaii1.jpg">
+                <figcaption>Kona, Hawaii Temple</figcaption>
+            </figure> 
+            <figure>
+                <img src="images/Laie_Hawaii1.jpg">
+                <figcaption>Laie, Hawaii Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/Salt_Lake_Temple.jpg">
+                <figcaption>Salt Lake City, Utah Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/San%20Diego300.jpg">
+                <figcaption>San Diego, California Temple</figcaption>
+            </figure>
         </section>
-        <section class="services">
-            <h2>Services & Amenities</h2>
+        <h2>Services & Amenities</h2>
+        <section class="services">            
             <div>
                 <h3>Services</h3>
                 <ul>
@@ -95,18 +116,23 @@
         
 <!-- FOOTER HERE -->   
     <footer>
-        <div class="toprow">
-            <section>
+        <div class="toprow clearfix">
+            <section  class="addressinfo" clearfix>
                 <p><strong>Address:</strong><br>
                     Temple Inn & Suites<br>
                 4800 Montgomery Ln #300<br>
                 Bethesda, MD 20814</p>
             </section>
-            <section>
+            <section class="phoneinfo">
                 <p><strong>Phone:</strong><br>&nbsp;1-800-ser-vice</p>
                 <p><strong>Email:</strong><br>&nbsp;templeinn@gmail.com</p>
+            </section>            
+            <section class="showlocation">
+                <p><strong>Location Map:</strong></p>
+                <div class="maplogo">
+                    <a href="https://goo.gl/maps/GQzK6nAbZEiFkSLr8"><img src="images/map.png" alt="Google Map link"></a>
+                </div>
             </section>
-            <section></section>
         </div>
         <div class="bottomrow">
             &copy; 2019 &nbsp;&bull;&nbsp; Tim Tomlinson &nbsp;&bull;&nbsp; <span id="outputdiv"></span>
@@ -115,6 +141,7 @@
     
 <!-- JavaScript -->    
     <script src="js/currentdate.js"></script>
+    <script src="js/menu.js"></script>
     
 </body>
 </html>

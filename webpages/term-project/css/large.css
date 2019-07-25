@@ -15,21 +15,21 @@
 
 
 /*----------- NAVIGATION --------------*/
-    nav ul {padding-left: 2%;}
-    nav ul li {width: auto;}
-    nav a {padding: .5rem 1rem;}
-     
-
+    nav ul {
+        padding-left: 2%;
+    }
+    nav ul li {
+        width: auto;
+    }
+    nav a {
+        padding: .5rem 1rem;
+    }
+    
 /*----------- MAIN --------------*/
-     main figure.myphoto {
-        width: 31%;
-    }
-    div.weathergallery figure {
-    flex-basis: 29%;
-    }
-    form label.stormInfo {
-        padding: .4rem 0;
-    }
+    .activities figure {
+        flex-basis: 29%;
+    } 
+    
 /*----------- FOOTER --------------*/
     
 } /* end of media query */

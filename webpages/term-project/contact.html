@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="author" content="Tim Tomlinson">
+
+<!-- This start file was build by Paul Cheney  -->
+<title>Contact - Temple Inn & Suites</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!---  LINK TO GOOGLE FONTS  -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+    
+     
+</head>
+<body>
+<!-- HEADER HERE -->
+    <header class="clearfix">
+        <img src="images/logo3.png">
+        <div>
+            <h1>Temple Inn & Suites</h1>
+            <h2>The Blessings of the Temple Are Priceless</h2>
+        </div>
+    </header>
+    
+<!-- NAVIGATION HERE -->
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Temple</a></li>
+            <li><a href="#">Reservations</a></li>
+            <li><a href="#">Services</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+<!-- CONTENT HERE -->
+    <main>
+        <section class="contactform">
+            <h2>Contact</h2>
+            <form method="get" action="thanks.html">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label class="userinfo">Name: 
+                        <input type="text" name="name" required pattern="[/A-Z|a-z/\s]{5,}"> 
+                    </label>
+                    <label class="userinfo">Phone Number:
+                        <input type="tel" name="phone" placeholder="1234567890">
+                    </label>
+                    <label class="userinfo">Email:
+                        <input type="email" name="email" placeholder="name@email.com" required>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Comments</legend>
+                    <label class="comments">Subject:
+                        <input type="text" name="subject">
+                    </label>
+                    <label class="comments">Comments:
+                        <textarea rows="10" cols="30"></textarea>
+                    </label>
+                </fieldset>
+                <input type="submit" name="submit" value="Share Your Thoughts" class="submitBtn">
+            </form>
+        </section>
+        <section class="maps">
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.405019705719!2d-77.0977258489351!3d38.98325177945719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0x9c8eb1c5547b83eb!2s4800+Montgomery+Ln+%23300%2C+Bethesda%2C+MD+20814!5e0!3m2!1sen!2sus!4v1564086674015!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </section>    
+    </main>  
+        
+<!-- FOOTER HERE -->   
+    <footer>
+        <div class="toprow clearfix">
+            <section  class="addressinfo" clearfix>
+                <p><strong>Address:</strong><br>
+                    Temple Inn & Suites<br>
+                4800 Montgomery Ln #300<br>
+                Bethesda, MD 20814</p>
+            </section>
+            <section class="phoneinfo">
+                <p><strong>Phone:</strong><br>&nbsp;1-800-ser-vice</p>
+                <p><strong>Email:</strong><br>&nbsp;templeinn@gmail.com</p>
+            </section>            
+            <section class="showlocation">
+                <p><strong>Location Map:</strong></p>
+                <div class="maplogo">
+                    <a href="https://goo.gl/maps/GQzK6nAbZEiFkSLr8"><img src="images/map.png" alt="Google Map link"></a>
+                </div>
+            </section>
+        </div>
+        <div class="bottomrow">
+            &copy; 2019 &nbsp;&bull;&nbsp; Tim Tomlinson &nbsp;&bull;&nbsp; <span id="outputdiv"></span>
+        </div>
+    </footer>
+    
+<!-- JavaScript -->    
+    <script src="js/currentdate.js"></script>
+    <script src="js/menu.js"></script>
+    
+</body>
+</html>
