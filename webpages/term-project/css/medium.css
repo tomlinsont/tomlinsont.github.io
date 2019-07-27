@@ -42,10 +42,15 @@
         float: left;
     }*/
     .temples {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items:flex-start;
+    }
+    .temples div{
         width: 48%;
-        float: left;
-        margin: 0 auto;
-        border: 1px solid black;
+        
     }
    
 /*----------- Temple Activities -----------*/
