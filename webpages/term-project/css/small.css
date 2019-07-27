@@ -103,25 +103,26 @@ figure figcaption {
     font-size: .75rem;
 }
 
-/*------------- Form ------------------*/
+/*------------- Contact Forms ------------------*/
 .contactform {
     width: 100%;
     padding: 2% 0;
 }
 form fieldset{
- margin: .5rem;
+    margin: .5rem;
 }
 fieldset legend{
     margin: 0 1rem;
     padding: 0 .5rem;
+    font-size: 1rem;
 }
-.userinfo, .comments {
+.contactform .userinfo, .contactform .comments {
     display: block;
     font-size: .75rem;
     margin: 0;
     padding: .5rem .25rem;
 }
-.userinfo input, .comments input, textarea {
+.contactform .userinfo input, .contactform .comments input, .contactform textarea {
     display: block;
     padding: .5rem;
     font-size: 1rem;
@@ -129,6 +130,32 @@ fieldset legend{
     max-width: 20rem;
     background-color: rgba(0,0,0,0.1);
 }
+
+/*-------------- Reservation Form --------------*/
+.reservationform .rooms, .reservationform .userinfo, .reservationform .comments {
+    display: flex;
+    flex-direction: column;
+}
+.reservationform .rooms, .reservationform .userinfo, .reservationform .comments {
+    display: block;
+    font-size: .75rem;
+    margin: 0;
+    padding: .5rem .25rem;
+}
+.reservationform .rooms input, .reservationform .userinfo input, .reservationform .comments textarea {
+    display: block;
+    padding: .5rem;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+.rooms span {
+    font-style: italic;
+    font-size: .75rem;
+}
+
+/*----------------- Forms --------------------*/
 .submitBtn {
     margin: .5rem;
 }
@@ -138,6 +165,8 @@ fieldset legend{
 .userinfo input:required:valid {
     border: 2px inset #cec6c6;
 }
+
+/*-------------- Maps -------------*/
 .maps {
     width: 100%;
     border: 1px solid black;

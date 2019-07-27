@@ -42,7 +42,7 @@
         <button onclick="toggleMenu()">&#9776;</button>
         <ul id="primaryNav" class="hide">
             <li><a href="index.html">Home</a></li>
-            <li><a href="#">Temple</a></li>
+            <li><a href="temple.html">Temple</a></li>
             <li class="active"><a href="reservations.html">Reservations</a></li>
             <li><a href="#">Services</a></li>
             <li><a href="contact.html">Contact</a></li>
@@ -51,8 +51,8 @@
     
 <!-- CONTENT HERE -->
     <main>
-        <section class="contactform">
-            <h2>Contact</h2>
+        <section class="reservationform">
+            <h2>Reservations</h2>
             <form method="get" action="thanks.html">
                 <fieldset>
                     <legend>Personal Information</legend>
@@ -71,10 +71,36 @@
                 </fieldset>
                 <fieldset>
                     <legend>Rooms</legend>
-                    <label class="rooms">Location:</label>
-                    <label class="rooms">Date:</label>
-                    <label class="rooms">Number of Rooms:</label>
-                    <label class="rooms">Type of Room:</label>
+                    <label class="rooms">Location:
+                        <select name="city">
+                            <option value="">Please Select</option>
+                            <option value="stGeorge">St. George, Utah</option>
+                            <option value="laie">Laie, Hawaii</option>
+                            <option value="kona">Kona, Hawaii</option>
+                            <option value="sanDiego">San Diego, California</option>
+                        </select>    
+                    </label>
+                    <label class="rooms">Date:
+                        <input type="date" name="date">
+                    </label>
+                    <label class="rooms">Number of Rooms:
+                        <select name="numRooms">
+                            <option value=""></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </label>
+                    <label class="rooms">Type of Room: <span>Bedrooms - Bed Size</span>
+                        <input list="roomtype">
+                            <datalist id="roomtype">
+                                <option value="Single - Queen"></option>
+                                <option value="Double - Queen"></option>
+                                <option value="Single - King"></option>
+                                <option value="Double - King & Queen"></option>
+                            </datalist>
+                    </label>
                 </fieldset>
                 <fieldset>
                     <legend>Comments</legend>
