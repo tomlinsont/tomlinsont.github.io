@@ -32,7 +32,7 @@
         font-size: 1rem;
     }
     
-    
+   /* 
     div.row section:nth-child(1) {
         width: 50%;
         float: left;
@@ -40,6 +40,10 @@
     div.row section:nth-child(2) {
         width: 50%;
         float: left;
+    }*/
+    .temples {
+    width: 50%;
+    border: 1px solid black;
     }
    
 /*----------- Temple Activities -----------*/
