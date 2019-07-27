@@ -86,6 +86,13 @@ main h {
 .temple img {
     width: 100%;
 }
+.temples {
+    width: 100%;
+    border: 1px solid black;
+}
+.temples img {
+    width: 100%;
+}
 
 /*------------ Temple Attending Activities --------*/
 .activities {
