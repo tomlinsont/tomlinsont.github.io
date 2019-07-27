@@ -42,8 +42,9 @@
         float: left;
     }*/
     .temples {
-    width: 50%;
-    border: 1px solid black;
+        width: 50%;
+        float: left;
+        border: 1px solid black;
     }
    
 /*----------- Temple Activities -----------*/
