@@ -44,6 +44,7 @@
     .temples {
         width: 48%;
         float: left;
+        margin: 0 auto;
         border: 1px solid black;
     }
    
