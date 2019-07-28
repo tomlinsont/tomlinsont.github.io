@@ -1,7 +1,7 @@
 const templeRequestObj = new XMLHttpRequest();
 
-/*var templeURLstring = '//tomlinsont.github.io/webpages/term-project/json/templelist.json';*/
-var templeURLstring = 'json/templelist.json';
+var templeURLstring = '//tomlinsont.github.io/webpages/term-project/json/templelist.json';
+/*var templeURLstring = 'json/templelist.json';*/
 
 templeRequestObj.open('GET', templeURLstring, true);
 

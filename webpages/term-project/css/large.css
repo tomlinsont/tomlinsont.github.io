@@ -34,6 +34,17 @@
         margin: 2% auto;
     }
     
+/*---------------- Weather -----------------*/
+     main section.weatherstat {
+        left: 4.5rem;
+    }
+    main section.weatherstat p {
+        font-size: 1rem;
+    }
+    main section.weatherstat h3 {
+        font-size: 1.25rem;
+    }
+    
 /*--------------- Temples Json Info -----------------*/
     .templeinfo div {
         margin: 0;

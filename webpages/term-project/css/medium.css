@@ -25,8 +25,13 @@
         width: 18%;
         font-size: .75rem;
     }
+    main section.weatherstat {
+        margin-top: 1.5rem;
+        left: 2rem;
+    }
+
     main section.weatherstat p {
-        font-size: .5rem;
+        font-size: .6rem;
     }
     main section.weatherstat h3 {
         font-size: 1rem;
