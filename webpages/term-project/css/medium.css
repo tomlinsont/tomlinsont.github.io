@@ -24,12 +24,10 @@
     main section.weatherstat {
         width: 18%;
         font-size: .75rem;
-    }
-    main section.weatherstat {
+        position: absolute;
         margin-top: 1.5rem;
         left: 2rem;
     }
-
     main section.weatherstat p {
         font-size: .6rem;
     }
