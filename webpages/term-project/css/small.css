@@ -238,6 +238,7 @@ footer {
 }
 footer a {
     color: #fff;
+    text-decoration: none;
 }
 .toprow {
     background-color: #b09c9c;
