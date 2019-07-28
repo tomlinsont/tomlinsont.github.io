@@ -46,13 +46,18 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
-        align-items:flex-start;
     }
     .temples div{
-        width: 48%;
-        
+        width: 46%;
     }
    
+/*--------------- Temples Json Info -----------------*/
+.templeinfo div {
+    margin: 0;
+    width: 100%;
+    font-size: .65rem;
+}
+
 /*----------- Temple Activities -----------*/
     .activities figure {
     flex-basis: 46%;

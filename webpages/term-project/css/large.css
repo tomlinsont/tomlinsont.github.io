@@ -26,9 +26,20 @@
     }
     
 /*----------- MAIN --------------*/
-    .activities figure {
+   /* .activities figure {
         flex-basis: 29%;
-    } 
+    }*/
+    .temples div{
+        width: 24%;
+        margin: 2% auto;
+    }
+    
+/*--------------- Temples Json Info -----------------*/
+    .templeinfo div {
+        margin: 0;
+        width: 100%;
+        font-size: .65rem;
+    }
     
 /*----------- FOOTER --------------*/
     

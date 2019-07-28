@@ -7,19 +7,8 @@
         "services" : "Clothing rental, Cafeteria, Distribution center",
         "ordinance" : "Baptism, Friday:2pm - 8pm",
         "sessions": "Friday, 2pm - 8pm",
-        "closure" : [
-        {
-            "2019" : [ "Friday, 4 October 2019, (Limited Hours)",
-                      "Saturday, 5 October 2019",
-                      "Wednesday, 27 November 2019, (Limited Hours)", "Thursday, 28 November 2019",
-                      "Tuesday, 24 December 2019",
-                      "Wednesday, 25 December 2019",
-                      "Friday, 27 December 2019",
-                      "Saturday, 28 December 2019",
-                      "Monday, 30 December 2019"]
-        }
-        ],
-        "history" : [ "Dedicated November 1919, by Heber J. Grant", "Rededication 21 November 2010, by Thomas S. Monson"],
+        "closure" :  "Friday, 4 October 2019, (Limited Hours), Saturday, 5 October 2019, Wednesday, 27 November 2019, (Limited Hours), Thursday, 28 November 2019, Tuesday, 24 December 2019, Wednesday, 25 December 2019, Friday, 27 December 2019, Saturday, 28 December 2019, Monday, 30 December 2019",
+        "history" :  "Dedicated November 1919, by Heber J. Grant, Rededication 21 November 2010, by Thomas S. Monson",
         "summary" : "The Laie Hawaii Temple was both the first temple built in Polynesia (Hawaii) and the first temple dedicated outside of the state of Utah."
     },
     {
@@ -29,11 +18,7 @@
         "services" : "",
         "ordinances" : "Sealing, Friday: 6pm - 8pm",
         "sessions" : "Friday, 6:30pm",
-        "closure" : [
-            {
-                "2019" : [ "Monday, 23 September 2019 - Monday, 7 October 2019", "Thursday, 28 November 2019", "Tuesday, 24 December 2019", "Wednesday, 25 December 2019", "Tuesday, 31 December 2019"]
-            }
-        ],
+        "closure" : "Monday, 23 September 2019 - Monday, 7 October 2019, Thursday, 28 November 2019, Tuesday, 24 December 2019, Wednesday, 25 December 2019, Tuesday, 31 December 2019",
         "history" : "Dedication, January 2000, by Gordon B. Hinckley",
         "summary" : "Kona Hawaii Temple is 6th temple built in Polynesia, and the second temple built in Hawaii."
     },
@@ -44,11 +29,7 @@
         "services" : "Clothing rental, Cafeteria, Distribution center",
         "ordinances" : "Sealing, Saturday, 7:30am - 8:00am",
         "sessions" : "Endowment, Saturday, 7:30am - 9:00am",
-        "closure" : [
-            {
-                "2019" : [ "Monday, 30 September 2019 - Monday, 11 November 2019", "Wednesday, 27 November 2019", "Thursday, 28 November 2019", "Tuesday, 24 December 2019", "Wednesday, 25 December 2019", "Tuesday, 31 December 2019"]
-            }
-        ],
+        "closure" : "Monday, 30 September 2019 - Monday, 11 November 2019, Wednesday, 27 November 2019, Thursday, 28 November 2019, Tuesday, 24 December 2019, Wednesday, 25 December 2019, Tuesday, 31 December 2019",
         "history" : "Dedication, April 1993, by Gordon B. Hinckley",
         "summary" : "The San Diego Temple was the third temple built in California. Over 720,000 visitors attended the open house."
     },
@@ -59,12 +40,7 @@
         "services" : "Clothing rental, Cafeteria, Patron housing, Distribution center",
         "ordinances" : "Baptism, Saturday, 6:00am - 8:00am",
         "sessions" : "Endowment. Saturday, 6:00am - 8:00am",
-        "closure" : [
-            {
-                "2019" : [ "Monday, 2 September 2019", "Monday, 9 September 2019 - Saturday, 21 September 2019", "Saturday, 5 October 2019", "Monday, 4 November 2019 - Friday, 4 November 2022"                   
-                ]
-            }
-        ],
+        "closure" : "Monday, 2 September 2019, Monday, 9 September 2019 - Saturday, 21 September 2019, Saturday, 5 October 2019, Monday, 4 November 2019 - Friday, 4 November 2022",
         "history" : "Dedication, 1 January 1877, Wilford Woodruff, Rededication, November 1975, Spencer W. Kimball",
         "summary" : "The St. George temple is the longest operating temple in the Church history, and the first built in Utah."
     }
