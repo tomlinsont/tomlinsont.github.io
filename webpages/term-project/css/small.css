@@ -117,8 +117,8 @@ main section.weatherstat {
     width: 33%;    
     font-size: .5rem;
     text-align: center;
-    top: 130px;
-    left: 20px;
+    top: 10px;
+    left: 10px;
     padding: 0 1%;
     background-color: rgba(13, 81, 153, 0.3);
     margin-top: -.25rem;
