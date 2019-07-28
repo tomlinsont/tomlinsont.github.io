@@ -98,13 +98,13 @@ main h {
 }
 
 /*---------------  Weather Conditions -------------*/
-main div.weatherinfo {
+main section div.weatherinfo {
     width: 100%;
     margin: .5rem auto;
     margin: 0;
     position: relative;
 }
-main .weatherinfo img {
+main section div.weatherinfo img {
     width: 100%;
     margin: .5rem auto;
     margin: 0;
