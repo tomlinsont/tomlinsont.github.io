@@ -109,7 +109,7 @@ main .weatherinfo img {
     margin: .5rem auto;
     margin: 0;
 }
-main section.weatherstat {
+main section div section.weatherstat {
     border: 1px solid black;
     border-radius: 10px;
     box-shadow: 0 0 20px #f7f8f9;
