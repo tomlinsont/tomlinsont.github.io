@@ -98,7 +98,7 @@ main h {
 }
 
 /*---------------  Weather Conditions -------------*/
-main div.weatherinfo {
+main div .weatherinfo {
     width: 100%;
     margin: .5rem auto;
     margin: 0;
@@ -117,8 +117,8 @@ main section.weatherstat {
     width: 27%;    
     font-size: .5rem;
     text-align: center;
-    top: 10px;
-    left: 10px;
+    top: 130px;
+    left: 25px;
     padding: 0 1%;
     background-color: rgba(192, 211, 232, 0.3);
     margin-top: -.25rem;
