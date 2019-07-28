@@ -37,6 +37,7 @@
 /*---------------- Weather -----------------*/
      main section.weatherstat {
         left: 5rem;
+        position: absolute;
     }
     main section.weatherstat p {
         font-size: 1rem;
