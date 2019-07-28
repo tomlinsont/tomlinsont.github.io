@@ -236,6 +236,9 @@ footer {
     color: #fff;
     font-size: .5rem;
 }
+footer a {
+    color: #fff;
+}
 .toprow {
     background-color: #b09c9c;
     color: #000;
