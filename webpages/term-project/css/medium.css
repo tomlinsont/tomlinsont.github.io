@@ -24,9 +24,9 @@
     main section.weatherstat {
         width: 18%;
         font-size: .75rem;
-        position: absolute;
+      /*  position: absolute;
         margin-top: 1.5rem;
-        left: 2rem;
+        left: 2rem;*/
     }
     main section.weatherstat p {
         font-size: .6rem;

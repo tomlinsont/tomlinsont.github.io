@@ -35,7 +35,7 @@
     }
     
 /*---------------- Weather -----------------*/
-     main section.weatherstat {
+  /*   main section.weatherstat {
         left: 8rem;
         position: absolute;
     }
@@ -44,7 +44,7 @@
     }
     main section.weatherstat h3 {
         font-size: 1.25rem;
-    }
+    }*/
     
 /*--------------- Temples Json Info -----------------*/
     .templeinfo div {
