@@ -114,25 +114,25 @@ main section.weatherstat {
     border-radius: 10px;
     box-shadow: 0 0 20px #f7f8f9;
     position: absolute;
-    width: 27%;    
+    width: 33%;    
     font-size: .5rem;
     text-align: center;
     top: 130px;
-    left: 25px;
+    left: 20px;
     padding: 0 1%;
-    background-color: rgba(192, 211, 232, 0.3);
+    background-color: rgba(13, 81, 153, 0.3);
     margin-top: -.25rem;
 }
 main section.weatherstat p {
     color: #fff; 
-    text-shadow: 0 0 3px #000;
-    font-size: .2rem;
+   /* text-shadow: 0 0 3px #000;*/
+    font-size: .5rem;
     padding-bottom: .25rem;
 }
 main section.weatherstat h3 {
     text-shadow: 0 0 3px #fff;
     color: #000;
-    font-size: .7rem;
+    font-size: .8rem;
     margin: .25rem 0;
 }
 main section.weatherstat .weathericon {
